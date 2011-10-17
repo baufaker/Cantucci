@@ -1,0 +1,2 @@
+class CardapioElementosController < ApplicationController
+end

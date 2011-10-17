@@ -1,0 +1,2 @@
+module VinhosHelper
+end
