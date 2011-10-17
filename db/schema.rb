@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111017212138) do
+ActiveRecord::Schema.define(:version => 20111017213155) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -45,5 +45,40 @@ ActiveRecord::Schema.define(:version => 20111017212138) do
 
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
+
+  create_table "cardapio_categoria", :force => true do |t|
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "cardapio_elementos", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "cardapio_categoria_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "eventos", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "vinho_categoria", :force => true do |t|
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "vinhos", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "vinho_categoria_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
