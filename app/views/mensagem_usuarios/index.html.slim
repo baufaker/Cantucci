@@ -1,0 +1,17 @@
+= form_for :mensagem, :url => mensagem_usuarios_path do |f|
+  p = "Nome:"
+  = f.text_field :name
+  br
+  br
+  p = "Telefone:"
+  = f.text_field :phone
+  br
+  br
+  p = "Email:"
+  = f.text_field :email
+  br
+  br
+  p = "Mensagem:"
+  = f.text_area :message
+  br
+  = f.submit
