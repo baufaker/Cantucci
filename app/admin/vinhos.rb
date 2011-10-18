@@ -4,7 +4,7 @@ ActiveAdmin.register Vinho do
     column "Descricao", :description do |vinhos|
       simple_format truncate(vinhos.description)
     end
-    column "Categoria", :vinho_categoria_id
+    column "Categoria", :vinho_categoria
     column "Modificado em", :updated_at
     default_actions
   end
@@ -18,6 +18,7 @@ ActiveAdmin.register Vinho do
   
   form do |f|
     f.inputs "Vinhos" do
+            f.input :vinho_categoria
             f.input :title
             f.input :description
           end

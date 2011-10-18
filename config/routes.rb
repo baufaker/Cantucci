@@ -5,7 +5,7 @@ Cantucci::Application.routes.draw do
   
   match '/vinhos/' => 'vinhos#index', :as => :vinhos
 
-  root :to => "home#index"
+  root :to => "vinhos#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
