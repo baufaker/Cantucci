@@ -4,6 +4,8 @@ Cantucci::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   
   match '/vinhos/' => 'vinhos#index', :as => :vinhos
+  
+  match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
 
   root :to => "vinhos#index"
   # The priority is based upon order of creation:

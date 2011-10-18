@@ -1,0 +1,9 @@
+- @categorias.each do |cat|
+  p = "--------------------------"
+  h2 = cat.title
+  p = "--------------------------"
+  
+  - @elementos.each do |e| 
+    - if e.cardapio_categoria_id == cat.id
+      h3 = e.title
+      p = e.description.html_safe

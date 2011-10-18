@@ -5,7 +5,7 @@ ActiveAdmin::Dashboards.build do
   # return the content which you would like to display.
   
   section "Ultimos vinhos adicionados" do
-    @vinhos = Vinho.limit(3).order("updated_at ASC")
+    @vinhos = Vinho.limit(5).order("updated_at ASC")
     ul do
       @vinhos.each do |vinho|
         li link_to(vinho.title, admin_vinho_path(vinho))
@@ -14,7 +14,7 @@ ActiveAdmin::Dashboards.build do
   end
   
   section "Ultimos eventos adicionados" do
-    @eventos = Evento.limit(3).order("updated_at ASC")
+    @eventos = Evento.limit(5).order("updated_at ASC")
     ul do
       @eventos.each do |evento|
         li link_to(evento.title, admin_evento_path(evento))
