@@ -6,6 +6,9 @@ Cantucci::Application.routes.draw do
   match '/vinhos/' => 'vinhos#index', :as => :vinhos
   
   match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
+  
+  get '/contato/' => 'mensagem_usuarios#index', :as => :contato
+  post '/contato/' => 'mensagem_usuarios#index', :as => :mensagem_usuarios
 
   root :to => "vinhos#index"
   # The priority is based upon order of creation:

@@ -1,9 +1,12 @@
 class MensagemUsuariosController < ApplicationController
   def index
     if request.post?
-      @blog = Blog.new(params[:blog])
+      @mensagem = MensagemUsuario.new(params[:mensagem])
+      if @mensagem.save
+        redirect_to contato_path
+      end
     else
-      @blog = Blog.new
+      @mensagem = MensagemUsuario.new
     end
   end
 
