@@ -2,7 +2,7 @@ ActiveAdmin.register Vinho do
   index do 
     column "Nome", :title
     column "Descricao", :description do |vinhos|
-      simple_format truncate(vinhos.description)
+      truncate(vinhos.description).html_safe
     end
     column "Categoria", :vinho_categoria
     column "Modificado em", :updated_at
@@ -12,7 +12,7 @@ ActiveAdmin.register Vinho do
   show do
     h3 vinho.title
     div do
-      simple_format vinho.description
+      vinho.description.html_safe
     end
   end
   
