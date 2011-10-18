@@ -4,7 +4,6 @@ class CreateMensagemUsuarios < ActiveRecord::Migration
       t.string :name
       t.string :email
       t.string :phone
-      t.string :subject
       t.text :message
 
       t.timestamps
