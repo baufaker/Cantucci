@@ -1,4 +1,5 @@
 ActiveAdmin.register CardapioElemento do
+
   index do 
     column "Nome", :title
     column "Descricao", :description do |el| 

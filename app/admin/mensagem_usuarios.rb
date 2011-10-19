@@ -7,7 +7,10 @@ ActiveAdmin.register MensagemUsuario do
       truncate(msg.message).html_safe
     end
     column "Recebido em", :created_at
-    default_actions
+    column "Acoes" do |msg|
+      link_to "Mostrar", admin_mensagem_usuario_path(msg.id)
+      #link_to "Deletar", destroy_admin_mensagem_usuario_path(msg.id)
+    end
   end
   
   show do

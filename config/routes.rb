@@ -1,15 +1,17 @@
 Cantucci::Application.routes.draw do
-
+    
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
+  
+  delete '/admin/mensagem_usuarios/:id(.:format)', :action => 'destroy', :controller => 'admin/mensagem_usuarios', :as => :destroy_admin_mensagem_usuario
   
   match '/vinhos/' => 'vinhos#index', :as => :vinhos
   
   get '/contato' => 'mensagem_usuarios#new', :as => :contato
 
   post '/contato' => 'mensagem_usuarios#create', :as  => :mensagem_usuarios
-  
+    
   match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
 
   root :to => "vinhos#index"
