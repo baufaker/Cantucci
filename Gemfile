@@ -8,6 +8,7 @@ gem 'activeadmin'
 gem 'tinymce-rails'
 gem 'slim'
 gem 'sass-rails',   '~> 3.1.4'
+gem 'nifty-generators'
 
 
 group :assets do
@@ -19,3 +20,4 @@ end
 group :test do
   gem 'turn', :require => false
 end
+gem "mocha", :group => :test

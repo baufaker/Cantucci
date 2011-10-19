@@ -1,14 +1,16 @@
 Cantucci::Application.routes.draw do
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   
   match '/vinhos/' => 'vinhos#index', :as => :vinhos
   
-  match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
+  get '/contato' => 'mensagem_usuarios#new', :as => :contato
+
+  post '/contato' => 'mensagem_usuarios#create', :as  => :mensagem_usuarios
   
-  get '/contato/' => 'mensagem_usuarios#index', :as => :contato
-  post '/contato/' => 'mensagem_usuarios#index', :as => :mensagem_usuarios
+  match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
 
   root :to => "vinhos#index"
   # The priority is based upon order of creation:

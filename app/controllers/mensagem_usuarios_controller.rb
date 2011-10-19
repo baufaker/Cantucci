@@ -1,13 +1,14 @@
 class MensagemUsuariosController < ApplicationController
-  def index
-    if request.post?
-      @mensagem = MensagemUsuario.new(params[:mensagem])
-      if @mensagem.save
-        redirect_to contato_path
-      end
-    else
-      @mensagem = MensagemUsuario.new
-    end
+  def new
+    @mensagem_usuario = MensagemUsuario.new
   end
 
+  def create
+    @mensagem_usuario = MensagemUsuario.new(params[:mensagem_usuario])
+    if @mensagem_usuario.save
+      redirect_to root_url, :notice => "Sua mensagem foi enviada com sucesso! Cantucci te retornara em breve!"
+    else
+      render :action => 'new'
+    end
+  end
 end
