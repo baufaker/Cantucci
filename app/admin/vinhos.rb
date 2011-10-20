@@ -1,4 +1,7 @@
 ActiveAdmin.register Vinho do
+  
+  menu :priority => 5
+  
   index do 
     column "Nome", :title
     column "Descricao", :description do |vinhos|

@@ -4,6 +4,7 @@ ActiveAdmin::Dashboards.build do
   # rendered on the dashboard in the context of the view. So just
   # return the content which you would like to display.
   
+  
   section "Ultimos vinhos adicionados" do
     @vinhos = Vinho.limit(5).order("updated_at ASC")
     ul do

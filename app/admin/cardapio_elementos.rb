@@ -1,5 +1,7 @@
 ActiveAdmin.register CardapioElemento do
 
+  menu :label => "Comidas e Bebidas", :priority => 4
+  
   index do 
     column "Nome", :title
     column "Descricao", :description do |el| 
