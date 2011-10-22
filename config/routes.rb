@@ -15,6 +15,9 @@ Cantucci::Application.routes.draw do
   match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
 
   root :to => "vinhos#index"
+  
+  match 'frontend/:template' => 'frontend#show', as: :frontend
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,21 @@
+doctype html
+/[if lt IE 7]
+  html.no-js.ie6.oldie lang="pt-BR"
+/[if IE 7]
+  html.no-js.ie7.oldie lang="pt-BR"
+/[if IE 8]
+  html.no-js.ie8.oldie lang="pt-BR"
+/[if gte IE 8]
+  html.no-js lang="pt-BR"
+head
+  meta charset="utf-8"
+  meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
+  title= "Cantucci"
+  meta name="description" content="Cantucci"
+  meta name="author" content="O Cara"
+  meta name="viewport" content="width=device-width, initial-scale=1.0"
+  
+  = stylesheet_link_tag '/stylesheets/application'
+  
+body
+  = yield
