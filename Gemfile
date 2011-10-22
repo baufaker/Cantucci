@@ -9,6 +9,8 @@ gem 'tinymce-rails'
 gem 'slim'
 gem 'sass-rails',   '~> 3.1.4'
 gem 'nifty-generators'
+gem "compass",             "~> 0.12.alpha.0"
+gem 'compass-960-plugin'
 
 
 group :assets do
