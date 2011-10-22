@@ -1,10 +1,34 @@
-@import compass/reset
-@import 960/grid
-
-$ninesixty-columns: 12
+@import base
 
 body
+  background: url(/images/madeira-pattern.jpg)
+
+.container
   +grid-container
-  
-  h1
-    +grid(12)
+  display: none
+
+.ladrilho
+  +pie-clearfix
+  width: 960px
+  background: #ebad66
+  margin: auto
+
+.esquerda
+  width: 81px
+  background: url(/images/ladrilho-esquerdo.jpg) repeat-y
+  position: absolute
+  bottom: 0
+  top: 0
+  display: none
+
+.direita
+  width: 81px
+  background: url(/images/ladrilho-direito.jpg) repeat-y
+  position: absolute
+  bottom: 0
+  top: 0
+  right: 0
+  display: none
+
+h1
+  +grid(16)
