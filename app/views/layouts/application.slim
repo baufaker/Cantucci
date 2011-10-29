@@ -24,6 +24,24 @@ body
     .direita
     
     .container
-      = yield
+      .main
+        #logo
+          h1 Cantucci Caffe
+        nav#menuPrincipal
+          ul
+            li#fonteHome 
+              a href="#" Home
+            li#fonteCardapio 
+              a href="#" Cardapio
+            li#fonteVinhos 
+              a href="#" Carta de Vinhos
+            li#fonteAgenda 
+              a href="#" Agenda
+            li#fonteFotos 
+              a href="#" Fotos
+            li#fonteContato 
+              a href="#" Contato
+              
+        = yield
       
   = javascript_include_tag 'application'
