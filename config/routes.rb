@@ -1,5 +1,7 @@
 Cantucci::Application.routes.draw do
     
+  resources :enquetes
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -13,7 +15,13 @@ Cantucci::Application.routes.draw do
   post '/contato' => 'mensagem_usuarios#create', :as  => :mensagem_usuarios
     
   match '/cardapio/' => 'cardapio_elementos#index', :as => :cardapio
+  
+  match '/resultado_enquete/' => 'enquetes#resultado', :as => :resultado
 
+  match '/enquete/' => 'enquetes#iago', :as => :enquete
+  
+  put '/resultado_enquete/' => "enquetes#update", :as => :update
+  
   root :to => "vinhos#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.

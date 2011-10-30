@@ -1,0 +1,11 @@
+- @enquete.each do |enq|
+
+  p = enq.pergunta
+  = form_for :aaaa, :url => resultado_path do 
+
+    select#option name="opcao_usuario"
+      option = enq.op1 
+      option = enq.op2
+      option = enq.op3      
+  
+    input type="submit" value="Answer"
