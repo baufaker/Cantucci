@@ -1,0 +1,76 @@
+@import base
+
+body
+  background: url(/images/madeira-pattern.jpg)
+
+.container
+  +grid-container
+  display: none
+  background: #faad53 url(/images/content-bg.jpg) no-repeat
+  
+.main
+  +grid(14)
+  +grid-suffix(1)
+  +grid-prefix(1)
+
+.ladrilho
+  +pie-clearfix
+  width: 960px
+  background: #ebad66
+  margin: auto
+
+.esquerda
+  width: 81px
+  background: url(/images/ladrilho-esquerdo.jpg) repeat-y
+  position: absolute
+  bottom: 0
+  top: 0
+  display: none
+
+.direita
+  width: 81px
+  background: url(/images/ladrilho-direito.jpg) repeat-y
+  position: absolute
+  bottom: 0
+  top: 0
+  right: 0
+  display: none
+
+#logo
+  h1 
+    width: 340px
+    height: 132px
+    background: url(/images/logo.png) no-repeat
+    margin: auto
+    text-indent: -99999999px
+    margin-top: 67px
+    
+#menuPrincipal
+  background: url(/images/menuprincipal.png) no-repeat
+  width: 819px
+  height: 55px
+  margin-top: 25px
+  a
+    height: 32px
+    display: block
+    text-indent: -99999px
+
+#fonteHome
+  background: url(/images/menu/home.png) no-repeat
+  width: 70px
+  
+#fonteCardapio
+  background: url(/images/menu/cardapio.png) no-repeat
+  width: 103px  
+  
+#fonteVinhos
+  background: url(/images/menu/vinhos.png) no-repeat
+  width: 177px
+
+#fonteAgenda
+  background: url(/images/menu/agenda.png) no-repeat
+  width: 88px  
+  
+
+  
+  
