@@ -5,9 +5,6 @@ ActiveAdmin.register Enquete do
             f.input :op1
             f.input :op2
             f.input :op3
-            f.input :cop1
-            f.input :cop2
-            f.input :cop3
           end
     f.buttons
   end
@@ -20,9 +17,9 @@ ActiveAdmin.register Enquete do
     column "Votos 1", :cop1
     column "Votos 2", :cop2
     column "Votos 3", :cop3
-
     column "Criada em", :created_at
   
+    default_actions
   end
   
 end
