@@ -7,7 +7,7 @@ class CreateEnquetes < ActiveRecord::Migration
       t.string :op3
       t.integer :cop1
       t.integer :cop2
-      t.integer :cop3
+      t.integer :cop3 
 
       t.timestamps
     end

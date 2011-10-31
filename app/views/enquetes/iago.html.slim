@@ -1,7 +1,7 @@
 - @enquete.each do |enq|
 
   p = enq.pergunta
-  = form_for :aaaa, :url => resultado_path do 
+  = form_for :aaaa, :url => update_path do 
 
     select#option name="opcao_usuario"
       option = enq.op1 
