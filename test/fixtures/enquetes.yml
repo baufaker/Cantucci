@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  pergunta: MyString
+  op1: MyString
+  op2: MyString
+  op3: MyString
+  cop1: 1
+  cop2: 1
+  cop3: 1
+
+two:
+  pergunta: MyString
+  op1: MyString
+  op2: MyString
+  op3: MyString
+  cop1: 1
+  cop2: 1
+  cop3: 1
