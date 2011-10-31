@@ -17,6 +17,9 @@ ActiveAdmin.register Enquete do
     column "Opcao1", :op1
     column "Opcao2", :op2
     column "Opcao2", :op3
+    column "Votos 1", :cop1
+    column "Votos 2", :cop2
+    column "Votos 3", :cop3
 
     column "Criada em", :created_at
   
