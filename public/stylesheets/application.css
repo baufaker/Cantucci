@@ -136,7 +136,11 @@ body {
 /* line 48, ../../app/sass/application.sass */
 #menuPrincipal {
   background: url(/images/menuprincipal.png) no-repeat;
-  width: 819px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 820px;
   height: 55px;
   margin-top: 25px;
 }
@@ -246,7 +250,26 @@ body {
 /* line 131, ../../app/sass/application.sass */
 .ladrilhoPrincipal {
   background: url(/images/ladop.png) no-repeat;
-  width: 819px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 820px;
+  padding-right: 60px;
+  padding-left: 60px;
   height: 667px;
   margin-top: 31px;
+}
+
+/* line 139, ../../app/sass/application.sass */
+.ladrilhoPrincipalHome {
+  background: url(/images/ladop.png) repeat-y;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 820px;
+  padding-right: 60px;
+  padding-left: 60px;
+  height: 698px;
 }
