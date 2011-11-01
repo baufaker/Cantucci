@@ -7,7 +7,7 @@ ActiveAdmin::Dashboards.build do
 
   
   section "Ultimos vinhos adicionados", :priority => 3 do
-    @vinhos = Vinho.limit(5).order("updated_at ASC")
+    @vinhos = Vinho.limit(5).order("updated_at DESC")
     ul do
       @vinhos.each do |vinho|
         li link_to(vinho.title, admin_vinho_path(vinho))
@@ -17,7 +17,7 @@ ActiveAdmin::Dashboards.build do
   
   
   section "Ultimas enquetes", :priority => 1 do
-    @enquetes = Enquete.limit(5).order("updated_at ASC")
+    @enquetes = Enquete.limit(5).order("updated_at DESC")
     ul do
       @enquetes.each do |enquete|
         li link_to(enquete.pergunta, admin_enquete_path(enquete))
@@ -26,7 +26,7 @@ ActiveAdmin::Dashboards.build do
   end
   
   section "Ultimos eventos adicionados", :priority => 2 do
-    @eventos = Evento.limit(5).order("updated_at ASC")
+    @eventos = Evento.limit(5).order("updated_at DESC")
     ul do
       @eventos.each do |evento|
         li link_to(evento.title, admin_evento_path(evento))
