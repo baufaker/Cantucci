@@ -1,0 +1,18 @@
+h1 Resultados
+br
+br
+br
+-@enquete.each do |enq|
+  h3 = enq.op1
+  p = (enq.cop1*100)/(enq.cop1 + enq.cop2 + enq.cop3)
+  
+  h3 = enq.op2
+  p = (enq.cop2*100)/(enq.cop1 + enq.cop2 + enq.cop3)
+  
+  h3 = enq.op3
+  p = (enq.cop3*100)/(enq.cop1 + enq.cop2 + enq.cop3)
+  
+= link_to 'Voltar', enquete_path
+
+ 
+

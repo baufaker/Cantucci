@@ -1,0 +1,13 @@
+- @enquete.each do |enq|
+
+  p = enq.pergunta
+  
+  = form_for :enqueteForm, :url => update_path do 
+
+    input type="radio" name="opcao_usuario" value=enq.op1 =enq.op1 
+    br
+    input type="radio" name="opcao_usuario" value=enq.op2 =enq.op2    
+    br
+    input type="radio" name="opcao_usuario" value=enq.op3 =enq.op3    
+    br
+    input type="submit" value="Answer"

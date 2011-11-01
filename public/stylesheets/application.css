@@ -1,4 +1,4 @@
-/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -95,7 +95,7 @@ body {
   background: #ebad66;
   margin: auto;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ladrilho:after {
   content: "";
   display: table;
@@ -140,33 +140,113 @@ body {
   height: 55px;
   margin-top: 25px;
 }
-/* line 53, ../../app/sass/application.sass */
+/* line 54, ../../app/sass/application.sass */
+#menuPrincipal ul {
+  display: block;
+  list-style: none;
+  padding: 15px;
+  padding-left: 26px;
+  padding-bottom: 17px;
+}
+/* line 61, ../../app/sass/application.sass */
+#menuPrincipal ul li {
+  float: left;
+  position: relative;
+  margin: 0;
+}
+/* line 66, ../../app/sass/application.sass */
 #menuPrincipal a {
   height: 32px;
   display: block;
   text-indent: -99999px;
 }
 
-/* line 58, ../../app/sass/application.sass */
+/* line 72, ../../app/sass/application.sass */
 #fonteHome {
   background: url(/images/menu/home.png) no-repeat;
   width: 70px;
+  padding-left: 39px;
 }
 
-/* line 62, ../../app/sass/application.sass */
+/* line 77, ../../app/sass/application.sass */
+#fonteHome:hover {
+  background: url(/images/menu/homehover.png) no-repeat;
+  width: 70px;
+  padding-left: 39px;
+}
+
+/* line 83, ../../app/sass/application.sass */
 #fonteCardapio {
   background: url(/images/menu/cardapio.png) no-repeat;
   width: 103px;
+  padding-left: 45px;
 }
 
-/* line 66, ../../app/sass/application.sass */
+/* line 88, ../../app/sass/application.sass */
+#fonteCardapio:hover {
+  background: url(/images/menu/cardapiohover.png) no-repeat;
+  width: 103px;
+  padding-left: 45px;
+}
+
+/* line 93, ../../app/sass/application.sass */
 #fonteVinhos {
   background: url(/images/menu/vinhos.png) no-repeat;
   width: 177px;
+  padding-left: 36px;
 }
 
-/* line 70, ../../app/sass/application.sass */
+/* line 98, ../../app/sass/application.sass */
+#fonteVinhos:hover {
+  background: url(/images/menu/vinhoshover.png) no-repeat;
+  width: 177px;
+  padding-left: 36px;
+}
+
+/* line 103, ../../app/sass/application.sass */
 #fonteAgenda {
   background: url(/images/menu/agenda.png) no-repeat;
   width: 88px;
+  padding-left: 36px;
+}
+
+/* line 108, ../../app/sass/application.sass */
+#fonteAgenda:hover {
+  background: url(/images/menu/agendahover.png) no-repeat;
+  width: 88px;
+  padding-left: 36px;
+}
+
+/* line 113, ../../app/sass/application.sass */
+#fonteContato {
+  background: url(/images/menu/cont.png) no-repeat;
+  width: 90px;
+}
+
+/* line 117, ../../app/sass/application.sass */
+#fonteContato:hover {
+  background: url(/images/menu/contatohover.png) no-repeat;
+  width: 90px;
+}
+
+/* line 121, ../../app/sass/application.sass */
+#fonteFotos {
+  background: url(/images/menu/fotos.png) no-repeat;
+  width: 67px;
+  padding-left: 25px;
+}
+
+/* line 126, ../../app/sass/application.sass */
+#fonteFotos:hover {
+  background: url(/images/menu/fotoshover.png) no-repeat;
+  width: 67px;
+  padding-left: 25px;
+}
+
+/* line 131, ../../app/sass/application.sass */
+.ladrilhoPrincipal {
+  background: url(/images/ladop.png) no-repeat;
+  width: 819px;
+  height: 667px;
+  margin-top: 31px;
 }
