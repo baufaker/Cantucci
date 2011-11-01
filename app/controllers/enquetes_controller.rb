@@ -1,11 +1,11 @@
 class EnquetesController < ApplicationController
   def iago
-    @enquete = Enquete.limit(1).order("created_at ASC")
+    @enquete = Enquete.limit(1).order("created_at DESC")
   end
   
   def resultado
     @option = params[:opcao_usuario]
-    @enquete = Enquete.limit(1).order("created_at ASC")
+    @enquete = Enquete.limit(1).order("created_at DESC")
    
     @enquete.each do |enq|
       if(@option == enq.op1)
