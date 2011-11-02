@@ -15,6 +15,10 @@ class EnquetesController < ApplicationController
       else
         enq.update_attributes(:cop3 => enq.cop3.next)
       end
+      
+      @porc1 =  Float(100*enq.cop1)/Float(enq.cop1+enq.cop2+enq.cop3)
+      @porc2 =  Float(100*enq.cop2)/Float(enq.cop1+enq.cop2+enq.cop3)
+      @porc3 =  Float(100*enq.cop3)/Float(enq.cop1+enq.cop2+enq.cop3)
   
     end
   end

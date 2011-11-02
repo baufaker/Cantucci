@@ -4,14 +4,14 @@ br
 br
 -@enquete.each do |enq|
   h3 = enq.op1
-  p = (enq.cop1*100)/(enq.cop1 + enq.cop2 + enq.cop3)
-  
+  = @porc1
+  br
   h3 = enq.op2
-  p = (enq.cop2*100)/(enq.cop1 + enq.cop2 + enq.cop3)
-  
+  = @porc2  
+  br
   h3 = enq.op3
-  p = (enq.cop3*100)/(enq.cop1 + enq.cop2 + enq.cop3)
-  
+  = @porc3
+  br
 = link_to 'Voltar', enquete_path
 
  
