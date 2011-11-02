@@ -255,21 +255,31 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   width: 820px;
-  padding-right: 60px;
-  padding-left: 60px;
   height: 667px;
   margin-top: 31px;
 }
 
-/* line 139, ../../app/sass/application.sass */
+/* line 137, ../../app/sass/application.sass */
 .ladrilhoPrincipalHome {
-  background: url(/images/ladop.png) repeat-y;
+  background: url(/images/ladop.png) no-repeat;
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 820px;
-  padding-right: 60px;
-  padding-left: 60px;
-  height: 698px;
+  height: 667px;
+  margin-top: 31px;
+}
+/* line 144, ../../app/sass/application.sass */
+.ladrilhoPrincipalHome #fotoHome h1 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 820px;
+  height: 204px;
+  background: url(/images/foto-home.png) no-repeat;
+  margin: auto;
+  text-indent: -99999999px;
+  margin-top: 67px;
 }

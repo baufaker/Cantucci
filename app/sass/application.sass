@@ -131,18 +131,22 @@ body
 .ladrilhoPrincipal
   background: url(/images/ladop.png) no-repeat
   +grid(14)
-  +grid-suffix(1)
-  +grid-prefix(1)
   height: 667px
   margin-top: 31px
 
 .ladrilhoPrincipalHome
-  background: url(/images/ladop.png) repeat-y
+  background: url(/images/ladop.png) no-repeat
   +grid(14)
-  +grid-suffix(1)
-  +grid-prefix(1)
-  height: 698px
+  height: 667px
+  margin-top: 31px
 
-.foto1
+  #fotoHome
+    h1 
+      +grid(14)
+      height: 204px
+      background: url(/images/foto-home.png) no-repeat
+      margin: auto
+      text-indent: -99999999px
+      margin-top: 67px
 
-.foto2
+// dar um jeito de colocar duas imagens no ladrilhoPrincipalHome, colocar a foto home por cima do ladrilhoPrincipalHome ou colocar a fotohome e depois colocar a ladrilhoPrincipalHome embaixo, com identação de altura - 463
