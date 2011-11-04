@@ -20,6 +20,8 @@ Cantucci::Application.routes.draw do
 
   match '/enquete/' => 'enquetes#iago', :as => :enquete
   
+  match '/agenda/' => 'eventos#index', :as => :agenda
+  
   put '/resultado_enquete/' => "enquetes#update", :as => :update
   
   root :to => "vinhos#index"
