@@ -293,10 +293,10 @@ body {
 #QuemSomos h2 {
   height: 112px;
   width: 300px;
-  background: url(/images/HomeQuemSomosnos.png) no-repeat;
+  background: url(/images/HomeQuemSomos.png) no-repeat;
   text-indent: -99999999px;
-  margin-left: 118px;
-  margin-top: -20px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 /* line 162, ../../app/sass/application.sass */
 #QuemSomos p {
@@ -310,9 +310,10 @@ body {
   line-height: 130%;
   text-align: justify;
   color: #492e20;
+  heigh: 320px;
 }
 
-/* line 170, ../../app/sass/application.sass */
+/* line 171, ../../app/sass/application.sass */
 .enquete {
   background: url(/images/enquete.png) no-repeat;
   margin-left: 545px;
@@ -321,7 +322,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 177, ../../app/sass/application.sass */
+/* line 178, ../../app/sass/application.sass */
 #enviar {
   background: url(/images/votar1.png) no-repeat;
   width: 76px;
@@ -333,7 +334,7 @@ body {
   margin-top: -224px;
 }
 
-/* line 187, ../../app/sass/application.sass */
+/* line 188, ../../app/sass/application.sass */
 #resultados {
   background: url(/images/result1.png) no-repeat;
   width: 104px;
@@ -345,7 +346,7 @@ body {
   margin-right: 20px;
 }
 
-/* line 198, ../../app/sass/application.sass */
+/* line 199, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
@@ -356,11 +357,33 @@ body {
   margin-top: 34px;
 }
 
-/* line 208, ../../app/sass/application.sass */
-h2 {
+/* line 209, ../../app/sass/application.sass */
+#Cardapio h2 {
   height: 100px;
   background: url(/images/Cardapio.png) no-repeat;
   text-indent: -99999999px;
   margin-left: 240px;
   margin-top: 65px;
+}
+
+/* line 216, ../../app/sass/application.sass */
+.categoria {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 180px;
+}
+/* line 220, ../../app/sass/application.sass */
+.categoria h3 {
+  font-family: arial;
+  font-size: 24px;
+  color: #492e20;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+  padding-left: 60px;
 }
