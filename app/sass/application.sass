@@ -216,10 +216,21 @@ body
 
 .categoriaCardapio
   +grid(10)
-  +grid_prefix(3)
-  margin-top 10px
+  +grid_prefix(2)
+  margin-top: 10px
+  margin-bottom: 10px
   font-family: arial
   color: #533210
+  span
+    align: left
+    +grid(6)
+    height: 5px
+    color: #744c1e
+    background-color: #744c1e
+    border-color: #a27847
+    -webkit-border-radius: 3px
+    -moz-border-radius: 3px
+    border-radius: 3px
   h3
     +grid(4)
     +grid_prefix(1)
@@ -228,9 +239,23 @@ body
   h4
     font-size: 18px
     font-weight: bold
+    +grid_prefix(0)
+    +grid(6)
   h5
+    +grid_prefix(0)
     font-size: 17px
     +grid(6)
   #fotoCardapio
     +grid(4)
-    +grid_suffix(0)
+    +grid_prefix(6)
+    margin-top: -85px
+  
+
+#Carta
+  h2
+    height: 100px
+    background: url(/images/cartadevinhos.png) no-repeat
+    text-indent: -99999999px
+    +grid(10)
+    margin-left: 120px
+    margin-top: 65px

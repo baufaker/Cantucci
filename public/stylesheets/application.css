@@ -374,11 +374,29 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   width: 580px;
-  padding-left: 180px;
+  padding-left: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: arial;
   color: #533210;
 }
-/* line 223, ../../app/sass/application.sass */
+/* line 224, ../../app/sass/application.sass */
+.categoriaCardapio span {
+  align: left;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+  height: 5px;
+  color: #744c1e;
+  background-color: #744c1e;
+  border-color: #a27847;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 234, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -389,13 +407,20 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 228, ../../app/sass/application.sass */
+/* line 239, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
+  padding-left: 0px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
 }
-/* line 231, ../../app/sass/application.sass */
+/* line 244, ../../app/sass/application.sass */
 .categoriaCardapio h5 {
+  padding-left: 0px;
   font-size: 17px;
   display: inline;
   float: left;
@@ -403,12 +428,27 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 234, ../../app/sass/application.sass */
+/* line 248, ../../app/sass/application.sass */
 .categoriaCardapio #fotoCardapio {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 220px;
-  padding-right: 0px;
+  padding-left: 360px;
+  margin-top: -85px;
+}
+
+/* line 255, ../../app/sass/application.sass */
+#Carta h2 {
+  height: 100px;
+  background: url(/images/cartadevinhos.png) no-repeat;
+  text-indent: -99999999px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  margin-left: 120px;
+  margin-top: 65px;
 }
