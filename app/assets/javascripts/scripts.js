@@ -13,8 +13,8 @@ $(function(){
     $('.esquerda').css('left', posicaoEsquerda + 'px');
     $('.direita').css('left', posicaoDireita + 'px');
     
-    var tamanhoJanela = $(window).height(); 
-    $('.container').css('height', tamanhoJanela);
+    // var tamanhoJanela = $(window).height(); 
+    // $('.container').css('height', tamanhoJanela);
     
   }
   
