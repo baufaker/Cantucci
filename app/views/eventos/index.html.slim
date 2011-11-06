@@ -2,6 +2,7 @@ h1 Agenda
 
 
 -@eventos.each do |evento| 
+    = image_tag(evento.foto.thumb.url) if evento.foto.present?
     h1 =evento.title
     h2 =evento.data_e_hora.strftime("%d-%m-%Y %H:%M")
     p =evento.description
