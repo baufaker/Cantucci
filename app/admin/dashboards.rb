@@ -34,6 +34,14 @@ ActiveAdmin::Dashboards.build do
     end
   end
   
+  section "Ultimos Comes e Bebes adicionados", :priority => 4 do
+    @comesebebes = CardapioElemento.limit(5).order("updated_at DESC")
+    ul do
+      @comesebebes.each do |el|
+        li link_to(el.title, admin_cardapio_elemento_path(el))
+      end
+    end
+  end
   # == Render Partial Section
   # The block is rendered within the context of the view, so you can
   # easily render a partial rather than build content in ruby.
