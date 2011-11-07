@@ -1,5 +1,7 @@
 Cantucci::Application.routes.draw do
     
+  get "fotos/index"
+
   resources :enquetes
 
   ActiveAdmin.routes(self)
@@ -27,6 +29,9 @@ Cantucci::Application.routes.draw do
   root :to => "vinhos#index"
   
   match 'frontend/:template' => 'frontend#show', as: :frontend
+  
+  match '/fotos/' => 'fotos#index', :as => :fotos
+
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
