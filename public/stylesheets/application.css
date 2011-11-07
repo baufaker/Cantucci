@@ -1,476 +1,54 @@
-/* line 17, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+/*
+Syntax error: The line was indented 2 levels deeper than the previous line.
+        on line 246 of C:/Users/Iago/Desktop/teste/Cantucci/app/sass/application.sass
 
-/* line 20, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
-  line-height: 1;
-}
-
-/* line 22, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 24, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 26, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 28, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 101, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 30, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 114, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 3, ../../app/sass/application.sass */
-body {
-  background: url(/images/madeira-pattern.jpg);
-}
-
-/* line 6, ../../app/sass/application.sass */
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  display: none;
-  background: #faad53 url(/images/content-bg.jpg) no-repeat;
-  *zoom: 1;
-  height: 100%;
-}
-/* line 38, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 13, ../../app/sass/application.sass */
-.main {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 820px;
-  padding-right: 60px;
-  padding-left: 60px;
-}
-
-/* line 18, ../../app/sass/application.sass */
-.ladrilho {
-  *zoom: 1;
-  width: 960px;
-  background: #ebad66;
-  margin: auto;
-}
-/* line 38, ../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.ladrilho:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 24, ../../app/sass/application.sass */
-.esquerda {
-  width: 81px;
-  background: url(/images/ladrilho-esquerdo.jpg) repeat-y;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  display: none;
-}
-
-/* line 32, ../../app/sass/application.sass */
-.direita {
-  width: 81px;
-  background: url(/images/ladrilho-direito.jpg) repeat-y;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  right: 0;
-  display: none;
-}
-
-/* line 42, ../../app/sass/application.sass */
-#logo h1 {
-  width: 340px;
-  height: 132px;
-  background: url(/images/logo.png) no-repeat;
-  margin: auto;
-  text-indent: -99999999px;
-  margin-top: 67px;
-}
-
-/* line 50, ../../app/sass/application.sass */
-#menuPrincipal {
-  background: url(/images/menuprincipal.png) no-repeat;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 820px;
-  height: 55px;
-  margin-top: 25px;
-}
-/* line 56, ../../app/sass/application.sass */
-#menuPrincipal ul {
-  display: block;
-  list-style: none;
-  padding: 15px;
-  padding-left: 26px;
-  padding-bottom: 17px;
-}
-/* line 63, ../../app/sass/application.sass */
-#menuPrincipal ul li {
-  float: left;
-  position: relative;
-  margin: 0;
-}
-/* line 68, ../../app/sass/application.sass */
-#menuPrincipal a {
-  height: 32px;
-  display: block;
-  text-indent: -99999px;
-}
-
-/* line 74, ../../app/sass/application.sass */
-#fonteHome {
-  background: url(/images/menu/home.png) no-repeat;
-  width: 70px;
-  padding-left: 39px;
-}
-
-/* line 79, ../../app/sass/application.sass */
-#fonteHome:hover {
-  background: url(/images/menu/homehover.png) no-repeat;
-  width: 70px;
-  padding-left: 39px;
-}
-
-/* line 85, ../../app/sass/application.sass */
-#fonteCardapio {
-  background: url(/images/menu/cardapio.png) no-repeat;
-  width: 103px;
-  padding-left: 45px;
-}
-
-/* line 90, ../../app/sass/application.sass */
-#fonteCardapio:hover {
-  background: url(/images/menu/cardapiohover.png) no-repeat;
-  width: 103px;
-  padding-left: 45px;
-}
-
-/* line 95, ../../app/sass/application.sass */
-#fonteVinhos {
-  background: url(/images/menu/vinhos.png) no-repeat;
-  width: 177px;
-  padding-left: 36px;
-}
-
-/* line 100, ../../app/sass/application.sass */
-#fonteVinhos:hover {
-  background: url(/images/menu/vinhoshover.png) no-repeat;
-  width: 177px;
-  padding-left: 36px;
-}
-
-/* line 105, ../../app/sass/application.sass */
-#fonteAgenda {
-  background: url(/images/menu/agenda.png) no-repeat;
-  width: 88px;
-  padding-left: 36px;
-}
-
-/* line 110, ../../app/sass/application.sass */
-#fonteAgenda:hover {
-  background: url(/images/menu/agendahover.png) no-repeat;
-  width: 88px;
-  padding-left: 36px;
-}
-
-/* line 115, ../../app/sass/application.sass */
-#fonteContato {
-  background: url(/images/menu/cont.png) no-repeat;
-  width: 90px;
-}
-
-/* line 119, ../../app/sass/application.sass */
-#fonteContato:hover {
-  background: url(/images/menu/contatohover.png) no-repeat;
-  width: 90px;
-}
-
-/* line 123, ../../app/sass/application.sass */
-#fonteFotos {
-  background: url(/images/menu/fotos.png) no-repeat;
-  width: 67px;
-  padding-left: 25px;
-}
-
-/* line 128, ../../app/sass/application.sass */
-#fonteFotos:hover {
-  background: url(/images/menu/fotoshover.png) no-repeat;
-  width: 67px;
-  padding-left: 25px;
-}
-
-/* line 133, ../../app/sass/application.sass */
-.ladrilhoPrincipal {
-  background: url(/images/ladop.png) no-repeat;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 820px;
-  height: 667px;
-  margin-top: 37px;
-}
-
-/* line 140, ../../app/sass/application.sass */
-.ladrilhoPrincipalHome {
-  background: url(/images/vamov.png) no-repeat;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 820px;
-  height: 667px;
-}
-
-/* line 145, ../../app/sass/application.sass */
-#fotoHome {
-  height: 204px;
-  margin: auto;
-}
-
-/* line 149, ../../app/sass/application.sass */
-#cont {
-  background: url(/images/cont1.png) no-repeat;
-  height: 452px;
-  margin-top: 10px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 520px;
-  padding-right: 360px;
-}
-
-/* line 157, ../../app/sass/application.sass */
-#QuemSomos h2 {
-  height: 112px;
-  width: 300px;
-  background: url(/images/HomeQuemSomos.png) no-repeat;
-  text-indent: -99999999px;
-  margin-left: 120px;
-  margin-top: 20px;
-}
-/* line 164, ../../app/sass/application.sass */
-#QuemSomos p {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 460px;
-  font-family: arial;
-  font-size: 15px;
-  line-height: 130%;
-  text-align: justify;
-  color: #492e20;
-  heigh: 320px;
-  margin-top: -20px;
-}
-
-/* line 174, ../../app/sass/application.sass */
-.enquete {
-  background: url(/images/enquete.png) no-repeat;
-  margin-left: 545px;
-  height: 271px;
-  width: 240px;
-  margin-top: 10px;
-}
-
-/* line 181, ../../app/sass/application.sass */
-#enviar {
-  background: url(/images/votar1.png) no-repeat;
-  width: 76px;
-  height: 37px;
-  display: block;
-  float: left;
-  text-indent: -99999px;
-  margin-left: 22px;
-  margin-top: -224px;
-}
-
-/* line 191, ../../app/sass/application.sass */
-#resultados {
-  background: url(/images/result1.png) no-repeat;
-  width: 104px;
-  height: 37px;
-  display: block;
-  float: right;
-  text-indent: -99999px;
-  margin-top: -224px;
-  margin-right: 20px;
-}
-
-/* line 202, ../../app/sass/application.sass */
-#face {
-  text-indent: -99999px;
-  background: url(/images/facebook.png) no-repeat;
-  width: 224px;
-  height: 72px;
-  display: block;
-  margin-left: 550px;
-  margin-top: 34px;
-}
-
-/* line 212, ../../app/sass/application.sass */
-#Cardapio h2 {
-  height: 100px;
-  background: url(/images/Cardapio.png) no-repeat;
-  text-indent: -99999999px;
-  margin-left: 240px;
-  margin-top: 65px;
-}
-
-/* line 219, ../../app/sass/application.sass */
-.categoriaCardapio {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 580px;
-  padding-left: 120px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: arial;
-  color: #533210;
-}
-/* line 226, ../../app/sass/application.sass */
-.categoriaCardapio span {
-  align: left;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 340px;
-  height: 5px;
-  color: #744c1e;
-  background-color: #744c1e;
-  border-color: #a27847;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-/* line 236, ../../app/sass/application.sass */
-.categoriaCardapio h3 {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 220px;
-  padding-left: 60px;
-  font-size: 24px;
-  font-weight: bold;
-}
-/* line 241, ../../app/sass/application.sass */
-.categoriaCardapio h4 {
-  font-size: 18px;
-  font-weight: bold;
-  padding-left: 0px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 340px;
-}
-/* line 246, ../../app/sass/application.sass */
-.categoriaCardapio h5 {
-  padding-left: 0px;
-  font-size: 17px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 340px;
-}
-/* line 250, ../../app/sass/application.sass */
-.categoriaCardapio #fotoCardapio {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 220px;
-  padding-left: 360px;
-  margin-top: -85px;
-}
-
-/* line 257, ../../app/sass/application.sass */
-#Carta h2 {
-  height: 100px;
-  background: url(/images/cartadevinhos.png) no-repeat;
-  text-indent: -99999999px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 580px;
-  margin-left: 120px;
-  margin-top: 65px;
-}
-
-/* line 266, ../../app/sass/application.sass */
-#Contato h2 {
-  height: 100px;
-  background: url(/images/contato.png) no-repeat;
-  text-indent: -99999999px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 340px;
-  margin-left: 256px;
-  margin-top: 65px;
-}
+Backtrace:
+C:/Users/Iago/Desktop/teste/Cantucci/app/sass/application.sass:246
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:443:in `tree'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:330:in `_to_tree'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:300:in `_render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:248:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/util.rb:297:in `silence_sass_warnings'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/sass-3.1.10/lib/sass/engine.rb:248:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:136:in `block (2 levels) in compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:122:in `timed'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:135:in `block in compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/logger.rb:45:in `red'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:134:in `compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:114:in `compile_if_required'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:99:in `block (2 levels) in run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:97:in `each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:97:in `block in run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:122:in `timed'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/compiler.rb:96:in `run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/commands/watch_project.rb:142:in `recompile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `run_callback'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:55:in `callback_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:35:in `update'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:39:in `block in modified'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `modified'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:18:in `refresh'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:17:in `each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:17:in `block in run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:15:in `loop'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:15:in `run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/monitor.rb:26:in `run'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/fssm-0.2.7/lib/fssm.rb:20:in `monitor'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/commands/watch_project.rb:86:in `perform'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/bin/compass:25:in `block in <top (required)>'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/bin/compass:39:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/bin/compass:39:in `<top (required)>'
+C:/Ruby192/bin/compass:19:in `load'
+C:/Ruby192/bin/compass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: The line was indented 2 levels deeper than the previous line.\A         on line 246 of C:/Users/Iago/Desktop/teste/Cantucci/app/sass/application.sass"; }
