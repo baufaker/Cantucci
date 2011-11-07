@@ -1,0 +1,6 @@
+h1 Galeria
+
+
+-@fotos.each do |foto| 
+    = image_tag(foto.picture.thumb.url) if foto.picture.present?
+    br
