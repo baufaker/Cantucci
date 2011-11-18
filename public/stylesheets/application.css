@@ -513,8 +513,8 @@ label {
 }
 
 /* line 293, ../../app/sass/application.sass */
-label:first-child {
-  margin-top: 65px;
+label:first-child ************ not working {
+  margin-top: 200px;
 }
 
 /* line 296, ../../app/sass/application.sass */
@@ -525,9 +525,28 @@ label:first-child {
   margin-right: 10px;
   width: 340px;
   margin-left: 0;
+  background-color: #533210;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
-/* line 300, ../../app/sass/application.sass */
+/* line 304, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
+}
+
+/* line 307, ../../app/sass/application.sass */
+input {
+  background-color: #533210;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #533210;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  line-height: 30px;
 }

@@ -290,12 +290,25 @@ label
   font-size: 16px
   color: #fbecec
 
-label:first-child
-  margin-top: 65px
+label:first-child  ************ not working
+  margin-top: 200px
 
 #contatotext
   +grid(6)
   +alpha
+  background-color: #533210
+  -webkit-border-radius: 15px
+  -moz-border-radius: 15px
+  border-radius: 15px
 
 #contatoinfo
   margin-top: 72px
+
+input
+  background-color: #533210
+  -webkit-border-radius: 5px
+  -moz-border-radius: 5px
+  border-radius: 5px
+  border-color: #533210
+  +grid(5)
+  line-height: 30px
