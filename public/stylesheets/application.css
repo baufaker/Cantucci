@@ -484,3 +484,50 @@ form {
   width: 700px;
   padding-left: 60px;
 }
+
+/* line 278, ../../app/sass/application.sass */
+#coluna1 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+}
+
+/* line 282, ../../app/sass/application.sass */
+#coluna2 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 288, ../../app/sass/application.sass */
+label {
+  font-family: Ebrima;
+  font-size: 16px;
+  color: #fbecec;
+}
+
+/* line 293, ../../app/sass/application.sass */
+label:first-child {
+  margin-top: 65px;
+}
+
+/* line 296, ../../app/sass/application.sass */
+#contatotext {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+  margin-left: 0;
+}
+
+/* line 300, ../../app/sass/application.sass */
+#contatoinfo {
+  margin-top: 72px;
+}
