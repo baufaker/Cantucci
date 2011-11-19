@@ -146,14 +146,18 @@ body
   height: 204px
   margin: auto
 
+#divindex
+  +grid(14)
+
 #cont
   background: url(/images/cont1.png) no-repeat
   height: 452px
   margin-top: 10px
   +grid(9)
-  +grid-suffix(6)
 
 #QuemSomos
+  +grid(8)
+  +grid_suffix(1)
   h2
     height: 112px
     width: 300px
@@ -162,8 +166,7 @@ body
     margin-left: 120px
     margin-top: 20px
   p
-    +grid(8)
-    font-family: arial
+    font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
     font-size: 15px
     line-height: 130%
     text-align: justify
@@ -171,33 +174,25 @@ body
     heigh: 320px
     margin-top: -20px
 
-.enquete
+#col2
+  +grid(5)
+  +alpha
+  +omega
+
+#enquete
   background: url(/images/enquete.png) no-repeat
-  margin-left: 545px
   height: 271px
   width: 240px
   margin-top: 10px
 
-#enviar
-  background: url(/images/votar1.png) no-repeat
-  width: 76px
-  height: 37px
-  display: block
-  float: left
-  text-indent: -99999px
-  margin-left: 22px
-  margin-top: -224px
-
-#resultados
-  background: url(/images/result1.png) no-repeat
+.botao
+  background-color: none
+  -webkit-border-radius: 5px
+  -moz-border-radius: 5px
+  border-radius: 5px
   width: 104px
   height: 37px
   display: block
-  float: right
-  text-indent: -99999px
-  margin-top: -224px
-  margin-right: 20px
-
   
 #face
   text-indent: -99999px
@@ -205,7 +200,6 @@ body
   width: 224px
   height: 72px
   display: block
-  margin-left: 550px
   margin-top: 34px
 
 #Cardapio
@@ -221,7 +215,7 @@ body
   +grid_prefix(2)
   margin-top: 10px
   margin-bottom: 10px
-  font-family: arial
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
   color: #533210
   span
     align: left
@@ -286,7 +280,7 @@ form
   +omega
 
 label
-  font-family: Ebrima
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
   font-size: 16px
   color: #fbecec
 
@@ -304,11 +298,3 @@ label:first-child  ************ not working
 #contatoinfo
   margin-top: 72px
 
-input
-  background-color: #533210
-  -webkit-border-radius: 5px
-  -moz-border-radius: 5px
-  border-radius: 5px
-  border-color: #533210
-  +grid(5)
-  line-height: 30px

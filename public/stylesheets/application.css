@@ -285,6 +285,15 @@ body {
 }
 
 /* line 149, ../../app/sass/application.sass */
+#divindex {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 820px;
+}
+
+/* line 152, ../../app/sass/application.sass */
 #cont {
   background: url(/images/cont1.png) no-repeat;
   height: 452px;
@@ -294,10 +303,18 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   width: 520px;
-  padding-right: 360px;
 }
 
-/* line 157, ../../app/sass/application.sass */
+/* line 158, ../../app/sass/application.sass */
+#QuemSomos {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  padding-right: 60px;
+}
+/* line 161, ../../app/sass/application.sass */
 #QuemSomos h2 {
   height: 112px;
   width: 300px;
@@ -306,14 +323,9 @@ body {
   margin-left: 120px;
   margin-top: 20px;
 }
-/* line 164, ../../app/sass/application.sass */
+/* line 168, ../../app/sass/application.sass */
 #QuemSomos p {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 460px;
-  font-family: arial;
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 15px;
   line-height: 130%;
   text-align: justify;
@@ -322,51 +334,47 @@ body {
   margin-top: -20px;
 }
 
-/* line 174, ../../app/sass/application.sass */
-.enquete {
+/* line 177, ../../app/sass/application.sass */
+#col2 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 182, ../../app/sass/application.sass */
+#enquete {
   background: url(/images/enquete.png) no-repeat;
-  margin-left: 545px;
   height: 271px;
   width: 240px;
   margin-top: 10px;
 }
 
-/* line 181, ../../app/sass/application.sass */
-#enviar {
-  background: url(/images/votar1.png) no-repeat;
-  width: 76px;
-  height: 37px;
-  display: block;
-  float: left;
-  text-indent: -99999px;
-  margin-left: 22px;
-  margin-top: -224px;
-}
-
-/* line 191, ../../app/sass/application.sass */
-#resultados {
-  background: url(/images/result1.png) no-repeat;
+/* line 188, ../../app/sass/application.sass */
+.botao {
+  background-color: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   width: 104px;
   height: 37px;
   display: block;
-  float: right;
-  text-indent: -99999px;
-  margin-top: -224px;
-  margin-right: 20px;
 }
 
-/* line 202, ../../app/sass/application.sass */
+/* line 197, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
   width: 224px;
   height: 72px;
   display: block;
-  margin-left: 550px;
   margin-top: 34px;
 }
 
-/* line 212, ../../app/sass/application.sass */
+/* line 206, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
   background: url(/images/Cardapio.png) no-repeat;
@@ -375,7 +383,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 219, ../../app/sass/application.sass */
+/* line 213, ../../app/sass/application.sass */
 .categoriaCardapio {
   display: inline;
   float: left;
@@ -385,10 +393,10 @@ body {
   padding-left: 120px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: arial;
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #533210;
 }
-/* line 226, ../../app/sass/application.sass */
+/* line 220, ../../app/sass/application.sass */
 .categoriaCardapio span {
   align: left;
   display: inline;
@@ -404,7 +412,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 236, ../../app/sass/application.sass */
+/* line 230, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -415,7 +423,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 241, ../../app/sass/application.sass */
+/* line 235, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
@@ -426,7 +434,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 246, ../../app/sass/application.sass */
+/* line 240, ../../app/sass/application.sass */
 .categoriaCardapio h5 {
   padding-left: 0px;
   font-size: 17px;
@@ -436,7 +444,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 250, ../../app/sass/application.sass */
+/* line 244, ../../app/sass/application.sass */
 .categoriaCardapio #fotoCardapio {
   display: inline;
   float: left;
@@ -447,7 +455,7 @@ body {
   margin-top: -85px;
 }
 
-/* line 257, ../../app/sass/application.sass */
+/* line 251, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
   background: url(/images/cartadevinhos.png) no-repeat;
@@ -461,7 +469,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 266, ../../app/sass/application.sass */
+/* line 260, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
   background: url(/images/contato.png) no-repeat;
@@ -475,7 +483,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 274, ../../app/sass/application.sass */
+/* line 268, ../../app/sass/application.sass */
 form {
   display: inline;
   float: left;
@@ -485,7 +493,7 @@ form {
   padding-left: 60px;
 }
 
-/* line 278, ../../app/sass/application.sass */
+/* line 272, ../../app/sass/application.sass */
 #coluna1 {
   display: inline;
   float: left;
@@ -494,7 +502,7 @@ form {
   width: 340px;
 }
 
-/* line 282, ../../app/sass/application.sass */
+/* line 276, ../../app/sass/application.sass */
 #coluna2 {
   display: inline;
   float: left;
@@ -505,19 +513,19 @@ form {
   margin-right: 0;
 }
 
-/* line 288, ../../app/sass/application.sass */
+/* line 282, ../../app/sass/application.sass */
 label {
-  font-family: Ebrima;
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   color: #fbecec;
 }
 
-/* line 293, ../../app/sass/application.sass */
+/* line 287, ../../app/sass/application.sass */
 label:first-child ************ not working {
   margin-top: 200px;
 }
 
-/* line 296, ../../app/sass/application.sass */
+/* line 290, ../../app/sass/application.sass */
 #contatotext {
   display: inline;
   float: left;
@@ -531,22 +539,7 @@ label:first-child ************ not working {
   border-radius: 15px;
 }
 
-/* line 304, ../../app/sass/application.sass */
+/* line 298, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
-}
-
-/* line 307, ../../app/sass/application.sass */
-input {
-  background-color: #533210;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border-color: #533210;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  line-height: 30px;
 }
