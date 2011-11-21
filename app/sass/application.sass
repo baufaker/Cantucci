@@ -52,25 +52,21 @@ body
   +grid(14)
   height: 55px
   margin-top: 25px
-
   ul
     display: block
     list-style: none
     padding: 15px
     padding-left: 26px
     padding-bottom: 17px
-
     li
       float: left
       position: relative
-      margin: 0
-      
+      margin: 0   
   a
     height: 32px
     display: block
     text-indent: -99999px
    
-
 #fonteHome
   background: url(/images/menu/home.png) no-repeat
   width: 70px 
@@ -181,18 +177,24 @@ body
 
 #enquete
   background: url(/images/enquete.png) no-repeat
-  height: 271px
+  height: 247px
   width: 240px
   margin-top: 10px
+  padding-top: 24px
+  padding-left: 22px
+  font-size: 14px
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
+  color: #492e20
+  font-weight: bold
+  line-hight: 30px
+  h4
+    padding-left: 10px
 
 .botao
   background-color: none
   -webkit-border-radius: 5px
   -moz-border-radius: 5px
   border-radius: 5px
-  width: 104px
-  height: 37px
-  display: block
   
 #face
   text-indent: -99999px
@@ -245,7 +247,6 @@ body
     +grid(4)
     +grid_prefix(6)
     margin-top: -85px
-  
 
 #Carta
   h2
@@ -265,27 +266,34 @@ body
     margin-left: 256px
     margin-top: 65px
 
-form
+#formcontato
   +grid(12)
   +grid_prefix(1)
+  label
+    font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
+    font-size: 16px
+    color: #fbecec
 
 #coluna1
   float:left
   +grid(6)
+  input
+    background-color: #533210
+    -webkit-border-radius: 6px
+    -moz-border-radius: 6px
+    border-radius: 6px
+    border-color: #533210
+    margin-bottom: 10px
+    widht: 200px
 
 #coluna2
   flat:right
   +grid(6)
   +alpha
   +omega
-
-label
-  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
-  font-size: 16px
-  color: #fbecec
-
-label:first-child  ************ not working
-  margin-top: 200px
+  input
+    width: 104px
+    height: 37px
 
 #contatotext
   +grid(6)
@@ -294,7 +302,12 @@ label:first-child  ************ not working
   -webkit-border-radius: 15px
   -moz-border-radius: 15px
   border-radius: 15px
+  margin-bottom: 33px
 
 #contatoinfo
   margin-top: 72px
-
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
+  color: #533210
+  line-height: 31px
+  font-size: 16px
+  font-weight: bold

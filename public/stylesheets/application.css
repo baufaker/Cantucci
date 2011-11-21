@@ -152,7 +152,7 @@ body {
   height: 55px;
   margin-top: 25px;
 }
-/* line 56, ../../app/sass/application.sass */
+/* line 55, ../../app/sass/application.sass */
 #menuPrincipal ul {
   display: block;
   list-style: none;
@@ -160,102 +160,102 @@ body {
   padding-left: 26px;
   padding-bottom: 17px;
 }
-/* line 63, ../../app/sass/application.sass */
+/* line 61, ../../app/sass/application.sass */
 #menuPrincipal ul li {
   float: left;
   position: relative;
   margin: 0;
 }
-/* line 68, ../../app/sass/application.sass */
+/* line 65, ../../app/sass/application.sass */
 #menuPrincipal a {
   height: 32px;
   display: block;
   text-indent: -99999px;
 }
 
-/* line 74, ../../app/sass/application.sass */
+/* line 70, ../../app/sass/application.sass */
 #fonteHome {
   background: url(/images/menu/home.png) no-repeat;
   width: 70px;
   padding-left: 39px;
 }
 
-/* line 79, ../../app/sass/application.sass */
+/* line 75, ../../app/sass/application.sass */
 #fonteHome:hover {
   background: url(/images/menu/homehover.png) no-repeat;
   width: 70px;
   padding-left: 39px;
 }
 
-/* line 85, ../../app/sass/application.sass */
+/* line 81, ../../app/sass/application.sass */
 #fonteCardapio {
   background: url(/images/menu/cardapio.png) no-repeat;
   width: 103px;
   padding-left: 45px;
 }
 
-/* line 90, ../../app/sass/application.sass */
+/* line 86, ../../app/sass/application.sass */
 #fonteCardapio:hover {
   background: url(/images/menu/cardapiohover.png) no-repeat;
   width: 103px;
   padding-left: 45px;
 }
 
-/* line 95, ../../app/sass/application.sass */
+/* line 91, ../../app/sass/application.sass */
 #fonteVinhos {
   background: url(/images/menu/vinhos.png) no-repeat;
   width: 177px;
   padding-left: 36px;
 }
 
-/* line 100, ../../app/sass/application.sass */
+/* line 96, ../../app/sass/application.sass */
 #fonteVinhos:hover {
   background: url(/images/menu/vinhoshover.png) no-repeat;
   width: 177px;
   padding-left: 36px;
 }
 
-/* line 105, ../../app/sass/application.sass */
+/* line 101, ../../app/sass/application.sass */
 #fonteAgenda {
   background: url(/images/menu/agenda.png) no-repeat;
   width: 88px;
   padding-left: 36px;
 }
 
-/* line 110, ../../app/sass/application.sass */
+/* line 106, ../../app/sass/application.sass */
 #fonteAgenda:hover {
   background: url(/images/menu/agendahover.png) no-repeat;
   width: 88px;
   padding-left: 36px;
 }
 
-/* line 115, ../../app/sass/application.sass */
+/* line 111, ../../app/sass/application.sass */
 #fonteContato {
   background: url(/images/menu/cont.png) no-repeat;
   width: 90px;
 }
 
-/* line 119, ../../app/sass/application.sass */
+/* line 115, ../../app/sass/application.sass */
 #fonteContato:hover {
   background: url(/images/menu/contatohover.png) no-repeat;
   width: 90px;
 }
 
-/* line 123, ../../app/sass/application.sass */
+/* line 119, ../../app/sass/application.sass */
 #fonteFotos {
   background: url(/images/menu/fotos.png) no-repeat;
   width: 67px;
   padding-left: 25px;
 }
 
-/* line 128, ../../app/sass/application.sass */
+/* line 124, ../../app/sass/application.sass */
 #fonteFotos:hover {
   background: url(/images/menu/fotoshover.png) no-repeat;
   width: 67px;
   padding-left: 25px;
 }
 
-/* line 133, ../../app/sass/application.sass */
+/* line 129, ../../app/sass/application.sass */
 .ladrilhoPrincipal {
   background: url(/images/ladop.png) no-repeat;
   display: inline;
@@ -267,7 +267,7 @@ body {
   margin-top: 37px;
 }
 
-/* line 140, ../../app/sass/application.sass */
+/* line 136, ../../app/sass/application.sass */
 .ladrilhoPrincipalHome {
   background: url(/images/vamov.png) no-repeat;
   display: inline;
@@ -278,13 +278,13 @@ body {
   height: 667px;
 }
 
-/* line 145, ../../app/sass/application.sass */
+/* line 141, ../../app/sass/application.sass */
 #fotoHome {
   height: 204px;
   margin: auto;
 }
 
-/* line 149, ../../app/sass/application.sass */
+/* line 145, ../../app/sass/application.sass */
 #divindex {
   display: inline;
   float: left;
@@ -293,7 +293,7 @@ body {
   width: 820px;
 }
 
-/* line 152, ../../app/sass/application.sass */
+/* line 148, ../../app/sass/application.sass */
 #cont {
   background: url(/images/cont1.png) no-repeat;
   height: 452px;
@@ -305,7 +305,7 @@ body {
   width: 520px;
 }
 
-/* line 158, ../../app/sass/application.sass */
+/* line 154, ../../app/sass/application.sass */
 #QuemSomos {
   display: inline;
   float: left;
@@ -314,7 +314,7 @@ body {
   width: 460px;
   padding-right: 60px;
 }
-/* line 161, ../../app/sass/application.sass */
+/* line 157, ../../app/sass/application.sass */
 #QuemSomos h2 {
   height: 112px;
   width: 300px;
@@ -323,7 +323,7 @@ body {
   margin-left: 120px;
   margin-top: 20px;
 }
-/* line 168, ../../app/sass/application.sass */
+/* line 164, ../../app/sass/application.sass */
 #QuemSomos p {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 15px;
@@ -334,7 +334,7 @@ body {
   margin-top: -20px;
 }
 
-/* line 177, ../../app/sass/application.sass */
+/* line 173, ../../app/sass/application.sass */
 #col2 {
   display: inline;
   float: left;
@@ -345,26 +345,34 @@ body {
   margin-right: 0;
 }
 
-/* line 182, ../../app/sass/application.sass */
+/* line 178, ../../app/sass/application.sass */
 #enquete {
   background: url(/images/enquete.png) no-repeat;
-  height: 271px;
+  height: 247px;
   width: 240px;
   margin-top: 10px;
+  padding-top: 24px;
+  padding-left: 22px;
+  font-size: 14px;
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
+  color: #492e20;
+  font-weight: bold;
+  line-hight: 30px;
+}
+/* line 190, ../../app/sass/application.sass */
+#enquete h4 {
+  padding-left: 10px;
 }
 
-/* line 188, ../../app/sass/application.sass */
+/* line 193, ../../app/sass/application.sass */
 .botao {
   background-color: none;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  width: 104px;
-  height: 37px;
-  display: block;
 }
 
-/* line 197, ../../app/sass/application.sass */
+/* line 199, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
@@ -374,7 +382,7 @@ body {
   margin-top: 34px;
 }
 
-/* line 206, ../../app/sass/application.sass */
+/* line 208, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
   background: url(/images/Cardapio.png) no-repeat;
@@ -383,7 +391,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 213, ../../app/sass/application.sass */
+/* line 215, ../../app/sass/application.sass */
 .categoriaCardapio {
   display: inline;
   float: left;
@@ -396,7 +404,7 @@ body {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #533210;
 }
-/* line 220, ../../app/sass/application.sass */
+/* line 222, ../../app/sass/application.sass */
 .categoriaCardapio span {
   align: left;
   display: inline;
@@ -412,7 +420,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 230, ../../app/sass/application.sass */
+/* line 232, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -423,7 +431,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 235, ../../app/sass/application.sass */
+/* line 237, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
@@ -434,7 +442,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 240, ../../app/sass/application.sass */
+/* line 242, ../../app/sass/application.sass */
 .categoriaCardapio h5 {
   padding-left: 0px;
   font-size: 17px;
@@ -444,7 +452,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 244, ../../app/sass/application.sass */
+/* line 246, ../../app/sass/application.sass */
 .categoriaCardapio #fotoCardapio {
   display: inline;
   float: left;
@@ -455,7 +463,7 @@ body {
   margin-top: -85px;
 }
 
-/* line 251, ../../app/sass/application.sass */
+/* line 252, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
   background: url(/images/cartadevinhos.png) no-repeat;
@@ -469,7 +477,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 260, ../../app/sass/application.sass */
+/* line 261, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
   background: url(/images/contato.png) no-repeat;
@@ -483,8 +491,8 @@ body {
   margin-top: 65px;
 }
 
-/* line 268, ../../app/sass/application.sass */
-form {
+/* line 269, ../../app/sass/application.sass */
+#formcontato {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -492,8 +500,14 @@ form {
   width: 700px;
   padding-left: 60px;
 }
-
 /* line 272, ../../app/sass/application.sass */
+#formcontato label {
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-size: 16px;
+  color: #fbecec;
+}
+
+/* line 277, ../../app/sass/application.sass */
 #coluna1 {
   display: inline;
   float: left;
@@ -501,8 +515,18 @@ form {
   margin-right: 10px;
   width: 340px;
 }
+/* line 280, ../../app/sass/application.sass */
+#coluna1 input {
+  background-color: #533210;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border-color: #533210;
+  margin-bottom: 10px;
+  widht: 200px;
+}
 
-/* line 276, ../../app/sass/application.sass */
+/* line 289, ../../app/sass/application.sass */
 #coluna2 {
   display: inline;
   float: left;
@@ -512,20 +536,13 @@ form {
   margin-left: 0;
   margin-right: 0;
 }
-
-/* line 282, ../../app/sass/application.sass */
-label {
-  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
-  font-size: 16px;
-  color: #fbecec;
+/* line 294, ../../app/sass/application.sass */
+#coluna2 input {
+  width: 104px;
+  height: 37px;
 }
 
-/* line 287, ../../app/sass/application.sass */
-label:first-child ************ not working {
-  margin-top: 200px;
-}
-
-/* line 290, ../../app/sass/application.sass */
+/* line 298, ../../app/sass/application.sass */
 #contatotext {
   display: inline;
   float: left;
@@ -537,9 +554,15 @@ label:first-child ************ not working {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  margin-bottom: 33px;
 }
 
-/* line 298, ../../app/sass/application.sass */
+/* line 307, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
+  color: #533210;
+  line-height: 31px;
+  font-size: 16px;
+  font-weight: bold;
 }
