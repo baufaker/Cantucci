@@ -363,16 +363,24 @@ body {
 #enquete h4 {
   padding-left: 10px;
 }
-
-/* line 193, ../../app/sass/application.sass */
-.botao {
-  background-color: none;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+/* line 192, ../../app/sass/application.sass */
+#enquete input {
+  margin-bottom: 20px;
+  margin-right: 15px;
 }
 
-/* line 199, ../../app/sass/application.sass */
+/* line 196, ../../app/sass/application.sass */
+.botao {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #533210;
+  font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 205, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
@@ -382,7 +390,7 @@ body {
   margin-top: 34px;
 }
 
-/* line 208, ../../app/sass/application.sass */
+/* line 214, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
   background: url(/images/Cardapio.png) no-repeat;
@@ -391,7 +399,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 215, ../../app/sass/application.sass */
+/* line 221, ../../app/sass/application.sass */
 .categoriaCardapio {
   display: inline;
   float: left;
@@ -404,7 +412,7 @@ body {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #533210;
 }
-/* line 222, ../../app/sass/application.sass */
+/* line 228, ../../app/sass/application.sass */
 .categoriaCardapio span {
   align: left;
   display: inline;
@@ -420,7 +428,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 232, ../../app/sass/application.sass */
+/* line 238, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -431,7 +439,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 237, ../../app/sass/application.sass */
+/* line 243, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
@@ -442,7 +450,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 242, ../../app/sass/application.sass */
+/* line 248, ../../app/sass/application.sass */
 .categoriaCardapio h5 {
   padding-left: 0px;
   font-size: 17px;
@@ -452,7 +460,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 246, ../../app/sass/application.sass */
+/* line 252, ../../app/sass/application.sass */
 .categoriaCardapio #fotoCardapio {
   display: inline;
   float: left;
@@ -463,7 +471,7 @@ body {
   margin-top: -85px;
 }
 
-/* line 252, ../../app/sass/application.sass */
+/* line 258, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
   background: url(/images/cartadevinhos.png) no-repeat;
@@ -477,7 +485,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 261, ../../app/sass/application.sass */
+/* line 267, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
   background: url(/images/contato.png) no-repeat;
@@ -491,7 +499,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 269, ../../app/sass/application.sass */
+/* line 275, ../../app/sass/application.sass */
 #formcontato {
   display: inline;
   float: left;
@@ -500,14 +508,15 @@ body {
   width: 700px;
   padding-left: 60px;
 }
-/* line 272, ../../app/sass/application.sass */
+/* line 278, ../../app/sass/application.sass */
 #formcontato label {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   color: #fbecec;
+  align: center;
 }
 
-/* line 277, ../../app/sass/application.sass */
+/* line 284, ../../app/sass/application.sass */
 #coluna1 {
   display: inline;
   float: left;
@@ -515,7 +524,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 280, ../../app/sass/application.sass */
+/* line 287, ../../app/sass/application.sass */
 #coluna1 input {
   background-color: #533210;
   -webkit-border-radius: 6px;
@@ -523,10 +532,10 @@ body {
   border-radius: 6px;
   border-color: #533210;
   margin-bottom: 10px;
-  widht: 200px;
+  width: 200px;
 }
 
-/* line 289, ../../app/sass/application.sass */
+/* line 296, ../../app/sass/application.sass */
 #coluna2 {
   display: inline;
   float: left;
@@ -536,13 +545,14 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 294, ../../app/sass/application.sass */
+/* line 301, ../../app/sass/application.sass */
 #coluna2 input {
   width: 104px;
   height: 37px;
+  margin-left: 100px;
 }
 
-/* line 298, ../../app/sass/application.sass */
+/* line 306, ../../app/sass/application.sass */
 #contatotext {
   display: inline;
   float: left;
@@ -555,9 +565,11 @@ body {
   -moz-border-radius: 15px;
   border-radius: 15px;
   margin-bottom: 33px;
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
-/* line 307, ../../app/sass/application.sass */
+/* line 317, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
