@@ -5,7 +5,6 @@ body
 
 .container
   +grid-container
-  display: none
   background: #faad53 url(/images/content-bg.jpg) no-repeat
   +pie-clearfix
   height: 100%
@@ -20,6 +19,7 @@ body
   width: 960px
   background: #ebad66
   margin: auto
+  position: relative
 
 .esquerda
   width: 81px
@@ -27,16 +27,16 @@ body
   position: absolute
   bottom: 0
   top: 0
-  display: none
+  left: -81px
 
 .direita
   width: 81px
   background: url(/images/ladrilho-direito.jpg) repeat-y
   position: absolute
-  height: 100%
   top: 0
-  right: 0
-  display: none
+  bottom: 0
+  right: -81px
+  
 
 #logo
   h1 

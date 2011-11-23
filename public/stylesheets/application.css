@@ -73,7 +73,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  display: none;
   background: #faad53 url(/images/content-bg.jpg) no-repeat;
   *zoom: 1;
   height: 100%;
@@ -85,7 +84,7 @@ body {
   clear: both;
 }
 
-/* line 25, ../../app/sass/application.sass */
+/* line 23, ../../app/sass/application.sass */
 .main {
   display: inline;
   float: left;
@@ -96,12 +95,13 @@ body {
   padding-left: 60px;
 }
 
-/* line 35, ../../app/sass/application.sass */
+/* line 33, ../../app/sass/application.sass */
 .ladrilho {
   *zoom: 1;
   width: 960px;
   background: #ebad66;
   margin: auto;
+  position: relative;
 }
 /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ladrilho:after {
@@ -117,7 +117,7 @@ body {
   position: absolute;
   bottom: 0;
   top: 0;
-  display: none;
+  left: -81px;
 }
 
 /* line 63, ../../app/sass/application.sass */
@@ -125,10 +125,9 @@ body {
   width: 81px;
   background: url(/images/ladrilho-direito.jpg) repeat-y;
   position: absolute;
-  height: 100%;
   top: 0;
-  right: 0;
-  display: none;
+  bottom: 0;
+  right: -81px;
 }
 
 /* line 83, ../../app/sass/application.sass */
