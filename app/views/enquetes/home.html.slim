@@ -6,22 +6,23 @@
       #QuemSomos
         h2 Quem Somos
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta, tellus sed faucibus venenatis, turpis mi bibendum risus, ac molestie nibh tellus nec nibh. Praesent felis lorem, porttitor nec sodales quis, adipiscing eget purus. Etiam dui orci, molestie eu dictum vel, faucibus eget nulla. Donec cursus quam vel augue venenatis euismod. Nunc nulla turpis, bibendum et viverra eget, dignissim in ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin in purus quis justo pharetra aliquam. Nunc porta fermentum quam non pharetra. Nunc viverra malesuada ornare. Donec cursus quam vel augue venenatis euismod. Nunc nulla turpis, bibendum et viverra eget, dignissim in ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin in purus quis justo pharetra aliquam. Nunc porta fermentum quam non pharetra. Nunc viverra malesuada ornare.   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta, tellus sed faucibus venenatis, turpis mi bibendum risus, ac molestie nibh tellus nec nibh. Praesent felis lorem. 
-  
+    
     #col2
       #enquete
-        h1 Resultado
-        -@enquete.each do |enq|
-          h3 = enq.op1
-          = @porc1
+        - @enquete.each do |enq|
+          h4 = enq.pergunta
           br
-          h3 = enq.op2
-          = @porc2  
-          br
-          h3 = enq.op3
-          = @porc3
-          br
-        = link_to 'Voltar', root_path
+          = form_for :enqueteForm, :url => update_path do 
+            input#Opt1 type="radio" name="opcao_usuario" value=enq.op1
+            label for="Opt1" =enq.op1 
+            br
+            input#Opt2 type="radio" name="opcao_usuario" value=enq.op2
+            label for="Opt2" =enq.op2
+            br
+            input#Opt3 type="radio" name="opcao_usuario" value=enq.op3    
+            label for="Opt3"  =enq.op3
+            br
+            input type="submit" value="Responder"
 
 
       a#face href="#" Facebook
-

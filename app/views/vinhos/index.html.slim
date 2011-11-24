@@ -1,9 +1,41 @@
-- @categorias.each do |cat|
-  p = "--------------------------"
-  h2 = cat.title
-  p = "--------------------------"
-  
-  - @vinhos.each do |v| 
-    - if v.vinho_categoria_id == cat.id
-      h3 = v.title
-      p = v.description.html_safe
+.ladrilhoPrincipal
+	#Carta
+		h2 Carta de Vinhos
+
+	.categoriaCardapio
+      - @categorias.each do |cat|
+        h3 = cat.title
+        br
+        br
+        span
+        br
+        br
+        - @vinhos.each do |v| 
+          - if v.vinho_categoria_id == cat.id
+            h4 = v.title
+            br
+            br
+            h5 = v.description.html_safe
+            br
+            br
+    		img#fotoCardapio src="/images/risoto.png"
+		
+		
+		
+		
+		
+		
+    / h3 Tinto
+    / br
+    / br
+    / span
+    / br
+    / br
+    / h4 Brasil
+    / br
+    / br
+    / h5  
+    /   Dom Cândido Réserva 2005 - Cab. Sauvignon
+    /   Dom Cândido Réserva 2005 - Merlot
+    /   Miolo Reserve 2007 - Cab. Sauvignon
+    / img#fotoCardapio src="/images/risoto.png"

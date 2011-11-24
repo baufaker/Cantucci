@@ -1,0 +1,34 @@
+.ladrilhoPrincipal
+  #Contato
+    h2 Contato
+  
+    = form_for @mensagem_usuario, :html => { id: "formcontato" } do |f|
+      #coluna1
+        = f.label "Nome:"
+        br
+        = f.text_field :name, placeholder: "Ex: João", id: "nome"
+        br
+        = f.label "Email:"
+        br
+        = f.text_field :email, placeholder: "example@example.com", id: "email"
+        br
+        = f.label "Telefone:"
+        br
+        = f.text_field :phone, placeholder: "3328-5242", id: "telefone"
+        br
+        p#contatoinfo
+          span Contato e resevas: 3328-5242  cantucci.caffe@gmail.com
+          br
+          span Endereço: SCLN 403 Bloco 3 - Loja 03.
+          br
+          span CEP: 70835-550 Brasília DF.
+
+      #coluna2
+        = f.label "Sugestões/Críticas"
+        br
+        = f.text_area :message, placeholder: "Digite sua mensagem aqui", rows: "12", id: "contatotext"
+        br
+        br
+        br
+        = f.submit value: "Enviar", class: "botao"
+
