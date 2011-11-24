@@ -1,5 +1,5 @@
 class EnquetesController < ApplicationController
-  def iago
+  def home
     @enquete = Enquete.limit(1).order("created_at DESC")
   end
   

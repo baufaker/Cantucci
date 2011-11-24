@@ -1,9 +1,21 @@
-- @categorias.each do |cat|
-  p = "--------------------------"
-  h2 = cat.title
-  p = "--------------------------"
-  
-  - @elementos.each do |e| 
-    - if e.cardapio_categoria_id == cat.id
-      h3 = e.title
-      p = e.description.html_safe
+.ladrilhoPrincipal
+	#Cardapio
+		h2 Cardapio
+
+	.categoriaCardapio
+      - @categorias.each do |cat|
+        h3 = cat.title
+        br
+        br
+        span
+        br
+        br
+        - @elementos.each do |e| 
+          - if e.cardapio_categoria_id == cat.id
+            h4 = e.title
+            br
+            br
+            h5 = e.description.html_safe
+            br
+            br
+    		img#fotoCardapio src="/images/risoto.png"

@@ -26,11 +26,12 @@ Cantucci::Application.routes.draw do
   
   put '/resultado_enquete/' => "enquetes#update", :as => :update
   
-  root :to => "vinhos#index"
+  root :to => "enquetes#home"
   
   match 'frontend/:template' => 'frontend#show', as: :frontend
   
   match '/fotos/' => 'fotos#index', :as => :fotos
+  
 
   
   # The priority is based upon order of creation:

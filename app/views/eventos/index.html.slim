@@ -1,8 +1,17 @@
-h1 Agenda
+.ladrilhoPrincipal
+	#Agenda
+		h2 Cardapio
+  
+    -@eventos.each do |evento|
+	  .calendario
+  	    h4#mes=evento.data_e_hora.strftime("%B")
+      	h4#dia=evento.data_e_hora.strftime("%d") 
+          .evento
+        		h3 =evento.title
+        		br
+        		p =evento.description
 
+        		img#fotoevento src="/images/evento.png"
 
--@eventos.each do |evento| 
-    = image_tag(evento.foto.thumb.url) if evento.foto.present?
-    h1 =evento.title
-    h2 =evento.data_e_hora.strftime("%d-%m-%Y %H:%M")
-    p =evento.description
+        		br
+        		span#divisao

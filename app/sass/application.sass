@@ -1,7 +1,7 @@
 @import base
 
 body
-  background: url(/images/madeira-pattern.jpg)
+  background: url(/images/texturas/madeira-pattern.jpg)
 
 .container
   +grid-container
@@ -20,6 +20,7 @@ body
   width: 960px
   background: #ebad66
   margin: auto
+  position: relative
 
 .esquerda
   width: 81px
@@ -27,16 +28,16 @@ body
   position: absolute
   bottom: 0
   top: 0
-  display: none
+  left: -81px
 
 .direita
   width: 81px
   background: url(/images/texturas/ladrilho-direito.jpg) repeat-y
   position: absolute
-  height: 100%
   top: 0
-  right: 0
-  display: none
+  bottom: 0
+  right: -81px
+  
 
 #logo
   h1 
@@ -194,9 +195,6 @@ body
     margin-right: 15px
 
 .botao
-  -webkit-border-radius: 8px
-  -moz-border-radius: 8px
-  border-radius: 8px
   color: #533210
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
   font-size: 14px
