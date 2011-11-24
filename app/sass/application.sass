@@ -3,9 +3,17 @@
 body
   background: url(/images/texturas/madeira-pattern.jpg)
 
+.rodape
+  margin-top: 20px
+  height: 40px
+  +grid(16)
+  +alpha
+  +omega
+  background-color: #FFF
+  margin-left: -60px
+
 .container
   +grid-container
-  display: none
   background: #faad53 url(/images/texturas/content-bg.jpg) no-repeat
   +pie-clearfix
   height: 100%
@@ -130,14 +138,12 @@ body
 .ladrilhoPrincipal
   background: url(/images/texturas/bora.jpg) repeat-y
   +grid(14)
-  height: 667px
   margin-top: 37px
 
 
 .ladrilhoPrincipalHome
   background: url(/images/texturas/vamov.png) no-repeat
   +grid(14)
-  height: 667px
 
 #fotoHome 
   height: 204px
