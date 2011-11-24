@@ -6,7 +6,7 @@ body
 .container
   +grid-container
   display: none
-  background: #faad53 url(/images/content-bg.jpg) no-repeat
+  background: #faad53 url(/images/texturas/content-bg.jpg) no-repeat
   +pie-clearfix
   height: 100%
   
@@ -23,7 +23,7 @@ body
 
 .esquerda
   width: 81px
-  background: url(/images/ladrilho-esquerdo.jpg) repeat-y
+  background: url(/images/texturas/ladrilho-esquerdo.jpg) repeat-y
   position: absolute
   bottom: 0
   top: 0
@@ -31,7 +31,7 @@ body
 
 .direita
   width: 81px
-  background: url(/images/ladrilho-direito.jpg) repeat-y
+  background: url(/images/texturas/ladrilho-direito.jpg) repeat-y
   position: absolute
   height: 100%
   top: 0
@@ -48,7 +48,7 @@ body
     margin-top: 67px
     
 #menuPrincipal
-  background: url(/images/menuprincipal.png) no-repeat
+  background: url(/images/texturas/menuprincipal.png) no-repeat
   +grid(14)
   height: 55px
   margin-top: 25px
@@ -127,14 +127,14 @@ body
   padding-left: 25px
 
 .ladrilhoPrincipal
-  background: url(/images/bora.jpg) repeat-y
+  background: url(/images/texturas/bora.jpg) repeat-y
   +grid(14)
   height: 667px
   margin-top: 37px
 
 
 .ladrilhoPrincipalHome
-  background: url(/images/vamov.png) no-repeat
+  background: url(/images/texturas/vamov.png) no-repeat
   +grid(14)
   height: 667px
 
@@ -146,7 +146,7 @@ body
   +grid(14)
 
 #cont
-  background: url(/images/cont1.png) no-repeat
+  background: url(/images/texturas/cont1.png) no-repeat
   height: 452px
   margin-top: 10px
   +grid(9)
@@ -157,7 +157,7 @@ body
   h2
     height: 112px
     width: 300px
-    background: url(/images/HomeQuemSomos.png) no-repeat
+    background: url(/images/subtitulos/HomeQuemSomos.png) no-repeat
     text-indent: -99999999px
     margin-left: 120px
     margin-top: 20px
@@ -176,7 +176,7 @@ body
   +omega
 
 #enquete
-  background: url(/images/enquete.png) no-repeat
+  background: url(/images/texturas/enquete.png) no-repeat
   height: 247px
   width: 240px
   margin-top: 10px
@@ -213,7 +213,7 @@ body
 #Cardapio
   h2
     height: 100px
-    background: url(/images/Cardapio.png) no-repeat
+    background: url(/images/subtitulos/Cardapio.png) no-repeat
     text-indent: -99999999px
     margin-left: 240px
     margin-top: 65px
@@ -249,7 +249,7 @@ body
     +grid_prefix(0)
     font-size: 17px
     +grid(6)
-  #fotoCardapio
+  .fotoCardapio
     +grid(4)
     +grid_prefix(6)
     margin-top: -85px
@@ -257,7 +257,7 @@ body
 #Carta
   h2
     height: 100px
-    background: url(/images/cartadevinhos.png) no-repeat
+    background: url(/images/subtitulos/cartadevinhos.png) no-repeat
     text-indent: -99999999px
     +grid(10)
     margin-left: 120px
@@ -266,7 +266,7 @@ body
 #Contato
   h2
     height: 100px
-    background: url(/images/contato.png) no-repeat
+    background: url(/images/subtitulos/contato.png) no-repeat
     text-indent: -99999999px
     +grid(6)
     margin-left: 256px
@@ -325,13 +325,13 @@ body
 #Agenda
   h2
     height: 100px
-    background: url(/images/Agenda.png) no-repeat
+    background: url(/images/subtitulos/Agenda.png) no-repeat
     text-indent: -99999999px
     margin-left: 255px
     margin-top: 65px
 
 .calendario
-  background: url(/images/calendario.png) no-repeat
+  background: url(/images/subtitulos/calendario.png) no-repeat
   height: 106px
   +grid(2)
   +grid_prefix(2)
@@ -389,3 +389,23 @@ body
   border-radius: 3px
   margin-left: -138px
   margin-top: 20px
+
+
+
+
+
+#Fotos
+  h2
+    height: 100px
+    background: url(/images/subtitulos/fotos.png) no-repeat
+    text-indent: -99999999px
+    margin-left: 240px
+    margin-top: 65px
+
+.foto
+  +grid(4)
+  +alpha
+  height: 160px
+  margin-left: 20px
+  margin-right: 20px
+  margin-bottom: 40px

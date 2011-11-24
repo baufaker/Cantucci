@@ -74,7 +74,7 @@ body {
   margin-right: auto;
   width: 960px;
   display: none;
-  background: #faad53 url(/images/content-bg.jpg) no-repeat;
+  background: #faad53 url(/images/texturas/content-bg.jpg) no-repeat;
   *zoom: 1;
   height: 100%;
 }
@@ -113,7 +113,7 @@ body {
 /* line 24, ../../app/sass/application.sass */
 .esquerda {
   width: 81px;
-  background: url(/images/ladrilho-esquerdo.jpg) repeat-y;
+  background: url(/images/texturas/ladrilho-esquerdo.jpg) repeat-y;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -123,7 +123,7 @@ body {
 /* line 32, ../../app/sass/application.sass */
 .direita {
   width: 81px;
-  background: url(/images/ladrilho-direito.jpg) repeat-y;
+  background: url(/images/texturas/ladrilho-direito.jpg) repeat-y;
   position: absolute;
   height: 100%;
   top: 0;
@@ -143,7 +143,7 @@ body {
 
 /* line 50, ../../app/sass/application.sass */
 #menuPrincipal {
-  background: url(/images/menuprincipal.png) no-repeat;
+  background: url(/images/texturas/menuprincipal.png) no-repeat;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -257,7 +257,7 @@ body {
 
 /* line 129, ../../app/sass/application.sass */
 .ladrilhoPrincipal {
-  background: url(/images/bora.jpg) repeat-y;
+  background: url(/images/texturas/bora.jpg) repeat-y;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -269,7 +269,7 @@ body {
 
 /* line 136, ../../app/sass/application.sass */
 .ladrilhoPrincipalHome {
-  background: url(/images/vamov.png) no-repeat;
+  background: url(/images/texturas/vamov.png) no-repeat;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -295,7 +295,7 @@ body {
 
 /* line 148, ../../app/sass/application.sass */
 #cont {
-  background: url(/images/cont1.png) no-repeat;
+  background: url(/images/texturas/cont1.png) no-repeat;
   height: 452px;
   margin-top: 10px;
   display: inline;
@@ -318,7 +318,7 @@ body {
 #QuemSomos h2 {
   height: 112px;
   width: 300px;
-  background: url(/images/HomeQuemSomos.png) no-repeat;
+  background: url(/images/subtitulos/HomeQuemSomos.png) no-repeat;
   text-indent: -99999999px;
   margin-left: 120px;
   margin-top: 20px;
@@ -347,7 +347,7 @@ body {
 
 /* line 178, ../../app/sass/application.sass */
 #enquete {
-  background: url(/images/enquete.png) no-repeat;
+  background: url(/images/texturas/enquete.png) no-repeat;
   height: 247px;
   width: 240px;
   margin-top: 10px;
@@ -393,7 +393,7 @@ body {
 /* line 214, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
-  background: url(/images/Cardapio.png) no-repeat;
+  background: url(/images/subtitulos/Cardapio.png) no-repeat;
   text-indent: -99999999px;
   margin-left: 240px;
   margin-top: 65px;
@@ -461,7 +461,7 @@ body {
   width: 340px;
 }
 /* line 252, ../../app/sass/application.sass */
-.categoriaCardapio #fotoCardapio {
+.categoriaCardapio .fotoCardapio {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -474,7 +474,7 @@ body {
 /* line 258, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
-  background: url(/images/cartadevinhos.png) no-repeat;
+  background: url(/images/subtitulos/cartadevinhos.png) no-repeat;
   text-indent: -99999999px;
   display: inline;
   float: left;
@@ -488,7 +488,7 @@ body {
 /* line 267, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
-  background: url(/images/contato.png) no-repeat;
+  background: url(/images/subtitulos/contato.png) no-repeat;
   text-indent: -99999999px;
   display: inline;
   float: left;
@@ -582,7 +582,7 @@ body {
 /* line 326, ../../app/sass/application.sass */
 #Agenda h2 {
   height: 100px;
-  background: url(/images/Agenda.png) no-repeat;
+  background: url(/images/subtitulos/Agenda.png) no-repeat;
   text-indent: -99999999px;
   margin-left: 255px;
   margin-top: 65px;
@@ -590,7 +590,7 @@ body {
 
 /* line 333, ../../app/sass/application.sass */
 .calendario {
-  background: url(/images/calendario.png) no-repeat;
+  background: url(/images/subtitulos/calendario.png) no-repeat;
   height: 106px;
   display: inline;
   float: left;
@@ -678,4 +678,27 @@ body {
   border-radius: 3px;
   margin-left: -138px;
   margin-top: 20px;
+}
+
+/* line 398, ../../app/sass/application.sass */
+#Fotos h2 {
+  height: 100px;
+  background: url(/images/subtitulos/fotos.png) no-repeat;
+  text-indent: -99999999px;
+  margin-left: 240px;
+  margin-top: 65px;
+}
+
+/* line 405, ../../app/sass/application.sass */
+.foto {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-left: 0;
+  height: 160px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
