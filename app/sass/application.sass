@@ -6,8 +6,20 @@ body
 .rodape
   margin-top: 5px
   height: 40px
-  +grid(16)
+  width: 960px
+  margin-left: 0px
+  margin-right: 0px
   background: url(/images/texturas/footer-bg.jpg)
+  
+  #txt
+    +grid(12)
+    +grid-prefix(2)
+    margin-top: 8px
+
+  #faceb
+    margin-top: 5px
+    margin-left: 5px
+    
 
 .container
   +grid-container

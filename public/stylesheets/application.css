@@ -72,15 +72,28 @@ body {
 .rodape {
   margin-top: 5px;
   height: 40px;
+  width: 960px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: url(/images/texturas/footer-bg.jpg);
+}
+/* line 14, ../../app/sass/application.sass */
+.rodape #txt {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 940px;
-  background: url(/images/texturas/footer-bg.jpg);
+  width: 700px;
+  padding-left: 120px;
+  margin-top: 8px;
+}
+/* line 19, ../../app/sass/application.sass */
+.rodape #faceb {
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
-/* line 12, ../../app/sass/application.sass */
+/* line 24, ../../app/sass/application.sass */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -96,7 +109,7 @@ body {
   clear: both;
 }
 
-/* line 18, ../../app/sass/application.sass */
+/* line 30, ../../app/sass/application.sass */
 .main {
   display: inline;
   float: left;
@@ -107,7 +120,7 @@ body {
   padding-left: 60px;
 }
 
-/* line 23, ../../app/sass/application.sass */
+/* line 35, ../../app/sass/application.sass */
 .ladrilho {
   *zoom: 1;
   width: 960px;
@@ -122,7 +135,7 @@ body {
   clear: both;
 }
 
-/* line 30, ../../app/sass/application.sass */
+/* line 42, ../../app/sass/application.sass */
 .esquerda {
   width: 81px;
   background: url(/images/texturas/ladrilho-esquerdo.jpg) repeat-y;
@@ -132,7 +145,7 @@ body {
   left: -81px;
 }
 
-/* line 38, ../../app/sass/application.sass */
+/* line 50, ../../app/sass/application.sass */
 .direita {
   width: 81px;
   background: url(/images/texturas/ladrilho-direito.jpg) repeat-y;
@@ -142,7 +155,7 @@ body {
   right: -81px;
 }
 
-/* line 48, ../../app/sass/application.sass */
+/* line 60, ../../app/sass/application.sass */
 #logo h1 {
   width: 340px;
   height: 132px;
@@ -152,7 +165,7 @@ body {
   margin-top: 67px;
 }
 
-/* line 56, ../../app/sass/application.sass */
+/* line 68, ../../app/sass/application.sass */
 #menuPrincipal {
   background: url(/images/texturas/menuprincipal.png) no-repeat;
   display: inline;
@@ -163,7 +176,7 @@ body {
   height: 55px;
   margin-top: 25px;
 }
-/* line 61, ../../app/sass/application.sass */
+/* line 73, ../../app/sass/application.sass */
 #menuPrincipal ul {
   display: block;
   list-style: none;
@@ -171,102 +184,102 @@ body {
   padding-left: 26px;
   padding-bottom: 17px;
 }
-/* line 67, ../../app/sass/application.sass */
+/* line 79, ../../app/sass/application.sass */
 #menuPrincipal ul li {
   float: left;
   position: relative;
   margin: 0;
 }
-/* line 71, ../../app/sass/application.sass */
+/* line 83, ../../app/sass/application.sass */
 #menuPrincipal a {
   height: 32px;
   display: block;
   text-indent: -99999px;
 }
 
-/* line 76, ../../app/sass/application.sass */
+/* line 88, ../../app/sass/application.sass */
 #fonteHome {
   background: url(/images/menu/home.png) no-repeat;
   width: 70px;
   padding-left: 39px;
 }
 
-/* line 81, ../../app/sass/application.sass */
+/* line 93, ../../app/sass/application.sass */
 #fonteHome:hover {
   background: url(/images/menu/homehover.png) no-repeat;
   width: 70px;
   padding-left: 39px;
 }
 
-/* line 87, ../../app/sass/application.sass */
+/* line 99, ../../app/sass/application.sass */
 #fonteCardapio {
   background: url(/images/menu/cardapio.png) no-repeat;
   width: 103px;
   padding-left: 45px;
 }
 
-/* line 92, ../../app/sass/application.sass */
+/* line 104, ../../app/sass/application.sass */
 #fonteCardapio:hover {
   background: url(/images/menu/cardapiohover.png) no-repeat;
   width: 103px;
   padding-left: 45px;
 }
 
-/* line 97, ../../app/sass/application.sass */
+/* line 109, ../../app/sass/application.sass */
 #fonteVinhos {
   background: url(/images/menu/vinhos.png) no-repeat;
   width: 177px;
   padding-left: 36px;
 }
 
-/* line 102, ../../app/sass/application.sass */
+/* line 114, ../../app/sass/application.sass */
 #fonteVinhos:hover {
   background: url(/images/menu/vinhoshover.png) no-repeat;
   width: 177px;
   padding-left: 36px;
 }
 
-/* line 107, ../../app/sass/application.sass */
+/* line 119, ../../app/sass/application.sass */
 #fonteAgenda {
   background: url(/images/menu/agenda.png) no-repeat;
   width: 88px;
   padding-left: 36px;
 }
 
-/* line 112, ../../app/sass/application.sass */
+/* line 124, ../../app/sass/application.sass */
 #fonteAgenda:hover {
   background: url(/images/menu/agendahover.png) no-repeat;
   width: 88px;
   padding-left: 36px;
 }
 
-/* line 117, ../../app/sass/application.sass */
+/* line 129, ../../app/sass/application.sass */
 #fonteContato {
   background: url(/images/menu/cont.png) no-repeat;
   width: 90px;
 }
 
-/* line 121, ../../app/sass/application.sass */
+/* line 133, ../../app/sass/application.sass */
 #fonteContato:hover {
   background: url(/images/menu/contatohover.png) no-repeat;
   width: 90px;
 }
 
-/* line 125, ../../app/sass/application.sass */
+/* line 137, ../../app/sass/application.sass */
 #fonteFotos {
   background: url(/images/menu/fotos.png) no-repeat;
   width: 67px;
   padding-left: 25px;
 }
 
-/* line 130, ../../app/sass/application.sass */
+/* line 142, ../../app/sass/application.sass */
 #fonteFotos:hover {
   background: url(/images/menu/fotoshover.png) no-repeat;
   width: 67px;
   padding-left: 25px;
 }
 
-/* line 135, ../../app/sass/application.sass */
+/* line 147, ../../app/sass/application.sass */
 .ladrilhoPrincipal {
   background: url(/images/texturas/bora.jpg) repeat-y;
   display: inline;
@@ -278,7 +291,7 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 142, ../../app/sass/application.sass */
+/* line 154, ../../app/sass/application.sass */
 .ladrilhoPrincipalHome {
   background: url(/images/texturas/vamov.png) no-repeat;
   display: inline;
@@ -289,13 +302,13 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 147, ../../app/sass/application.sass */
+/* line 159, ../../app/sass/application.sass */
 #fotoHome {
   height: 204px;
   margin: auto;
 }
 
-/* line 151, ../../app/sass/application.sass */
+/* line 163, ../../app/sass/application.sass */
 #divindex {
   display: inline;
   float: left;
@@ -304,7 +317,7 @@ body {
   width: 820px;
 }
 
-/* line 154, ../../app/sass/application.sass */
+/* line 166, ../../app/sass/application.sass */
 #cont {
   background: url(/images/texturas/cont1.png) no-repeat;
   height: 452px;
@@ -316,7 +329,7 @@ body {
   width: 520px;
 }
 
-/* line 160, ../../app/sass/application.sass */
+/* line 172, ../../app/sass/application.sass */
 #QuemSomos {
   display: inline;
   float: left;
@@ -325,7 +338,7 @@ body {
   width: 460px;
   padding-right: 60px;
 }
-/* line 163, ../../app/sass/application.sass */
+/* line 175, ../../app/sass/application.sass */
 #QuemSomos h2 {
   height: 112px;
   width: 300px;
@@ -334,7 +347,7 @@ body {
   margin-left: 120px;
   margin-top: 20px;
 }
-/* line 170, ../../app/sass/application.sass */
+/* line 182, ../../app/sass/application.sass */
 #QuemSomos p {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 15px;
@@ -345,7 +358,7 @@ body {
   margin-top: -20px;
 }
 
-/* line 179, ../../app/sass/application.sass */
+/* line 191, ../../app/sass/application.sass */
 #col2 {
   display: inline;
   float: left;
@@ -356,7 +369,7 @@ body {
   margin-right: 0;
 }
 
-/* line 184, ../../app/sass/application.sass */
+/* line 196, ../../app/sass/application.sass */
 #enquete {
   background: url(/images/texturas/enquete.png) no-repeat;
   height: 247px;
@@ -370,17 +383,17 @@ body {
   font-weight: bold;
   line-hight: 30px;
 }
-/* line 196, ../../app/sass/application.sass */
+/* line 208, ../../app/sass/application.sass */
 #enquete h4 {
   padding-left: 10px;
 }
-/* line 198, ../../app/sass/application.sass */
+/* line 210, ../../app/sass/application.sass */
 #enquete input {
   margin-bottom: 20px;
   margin-right: 15px;
 }
 
-/* line 202, ../../app/sass/application.sass */
+/* line 214, ../../app/sass/application.sass */
 .botao {
   color: #533210;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -388,7 +401,7 @@ body {
   font-weight: bold;
 }
 
-/* line 208, ../../app/sass/application.sass */
+/* line 220, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
@@ -398,7 +411,7 @@ body {
   margin-top: 34px;
 }
 
-/* line 217, ../../app/sass/application.sass */
+/* line 229, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
   background: url(/images/subtitulos/Cardapio.png) no-repeat;
@@ -407,7 +420,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 224, ../../app/sass/application.sass */
+/* line 236, ../../app/sass/application.sass */
 .categoriaCardapio {
   display: inline;
   float: left;
@@ -420,7 +433,7 @@ body {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #533210;
 }
-/* line 231, ../../app/sass/application.sass */
+/* line 243, ../../app/sass/application.sass */
 .categoriaCardapio span {
   align: left;
   display: inline;
@@ -436,7 +449,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 241, ../../app/sass/application.sass */
+/* line 253, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -447,7 +460,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 246, ../../app/sass/application.sass */
+/* line 258, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
@@ -458,7 +471,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 251, ../../app/sass/application.sass */
+/* line 263, ../../app/sass/application.sass */
 .categoriaCardapio h5 {
   padding-left: 0px;
   font-size: 17px;
@@ -468,7 +481,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 255, ../../app/sass/application.sass */
+/* line 267, ../../app/sass/application.sass */
 .categoriaCardapio .fotoCardapio {
   display: inline;
   float: left;
@@ -479,7 +492,7 @@ body {
   margin-top: -85px;
 }
 
-/* line 261, ../../app/sass/application.sass */
+/* line 273, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
   background: url(/images/subtitulos/cartadevinhos.png) no-repeat;
@@ -493,7 +506,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 270, ../../app/sass/application.sass */
+/* line 282, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
   background: url(/images/subtitulos/contato.png) no-repeat;
@@ -507,7 +520,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 278, ../../app/sass/application.sass */
+/* line 290, ../../app/sass/application.sass */
 #formcontato {
   display: inline;
   float: left;
@@ -516,7 +529,7 @@ body {
   width: 700px;
   padding-left: 60px;
 }
-/* line 281, ../../app/sass/application.sass */
+/* line 293, ../../app/sass/application.sass */
 #formcontato label {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
@@ -524,7 +537,7 @@ body {
   align: center;
 }
 
-/* line 287, ../../app/sass/application.sass */
+/* line 299, ../../app/sass/application.sass */
 #coluna1 {
   display: inline;
   float: left;
@@ -532,7 +545,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 290, ../../app/sass/application.sass */
+/* line 302, ../../app/sass/application.sass */
 #coluna1 input {
   background-color: #533210;
   -webkit-border-radius: 6px;
@@ -543,7 +556,7 @@ body {
   width: 200px;
 }
 
-/* line 299, ../../app/sass/application.sass */
+/* line 311, ../../app/sass/application.sass */
 #coluna2 {
   display: inline;
   float: left;
@@ -553,14 +566,14 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 304, ../../app/sass/application.sass */
+/* line 316, ../../app/sass/application.sass */
 #coluna2 input {
   width: 104px;
   height: 37px;
   margin-left: 100px;
 }
 
-/* line 309, ../../app/sass/application.sass */
+/* line 321, ../../app/sass/application.sass */
 #contatotext {
   display: inline;
   float: left;
@@ -577,7 +590,7 @@ body {
   padding-top: 10px;
 }
 
-/* line 320, ../../app/sass/application.sass */
+/* line 332, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -587,7 +600,7 @@ body {
   font-weight: bold;
 }
 
-/* line 329, ../../app/sass/application.sass */
+/* line 341, ../../app/sass/application.sass */
 #Agenda h2 {
   height: 100px;
   background: url(/images/subtitulos/Agenda.png) no-repeat;
@@ -596,7 +609,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 336, ../../app/sass/application.sass */
+/* line 348, ../../app/sass/application.sass */
 .calendario {
   background: url(/images/subtitulos/calendario.png) no-repeat;
   height: 106px;
@@ -609,7 +622,7 @@ body {
   margin-left: 110px;
   margin-top: 28px;
 }
-/* line 344, ../../app/sass/application.sass */
+/* line 356, ../../app/sass/application.sass */
 .calendario #mes {
   display: inline;
   float: left;
@@ -624,7 +637,7 @@ body {
   color: white;
   font-weight: bold;
 }
-/* line 354, ../../app/sass/application.sass */
+/* line 366, ../../app/sass/application.sass */
 .calendario #dia {
   display: inline;
   float: left;
@@ -639,7 +652,7 @@ body {
   color: white;
 }
 
-/* line 363, ../../app/sass/application.sass */
+/* line 375, ../../app/sass/application.sass */
 .evento {
   display: inline;
   float: left;
@@ -648,7 +661,7 @@ body {
   width: 280px;
   padding-left: 240px;
 }
-/* line 367, ../../app/sass/application.sass */
+/* line 379, ../../app/sass/application.sass */
 .evento h3 {
   font-size: 20px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -656,7 +669,7 @@ body {
   font-weight: bold;
   margin-top: -107px;
 }
-/* line 374, ../../app/sass/application.sass */
+/* line 386, ../../app/sass/application.sass */
 .evento p {
   font-size: 17px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -664,13 +677,13 @@ body {
   text-align: justify;
 }
 
-/* line 380, ../../app/sass/application.sass */
+/* line 392, ../../app/sass/application.sass */
 #fotoevento {
   margin-top: -196px;
   margin-left: 335px;
 }
 
-/* line 384, ../../app/sass/application.sass */
+/* line 396, ../../app/sass/application.sass */
 #divisao {
   display: inline;
   float: left;
@@ -688,7 +701,7 @@ body {
   margin-top: 20px;
 }
 
-/* line 401, ../../app/sass/application.sass */
+/* line 413, ../../app/sass/application.sass */
 #Fotos h2 {
   height: 100px;
   background: url(/images/subtitulos/fotos.png) no-repeat;
@@ -697,7 +710,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 408, ../../app/sass/application.sass */
+/* line 420, ../../app/sass/application.sass */
 .foto {
   display: inline;
   float: left;
