@@ -3,17 +3,16 @@
 		h2 Cardapio
   
     -@eventos.each do |evento|
-	  .calendario
-  	    h4#mes=evento.data_e_hora.strftime("%B")
-      	h4#dia=evento.data_e_hora.strftime("%d") 
-    .evento
-  		h3 =evento.title
-  		br
-  		p =evento.description
+      .calendario
+  	      h4#mes=evento.data_e_hora.strftime("%B")
+        	h4#dia=evento.data_e_hora.strftime("%d") 
+      .acontecimento
+  		    h3 =evento.title
+      		br
+      		p =evento.description
+      
+      img#fotoevento src="/images/evento.png"
 
-  		img#fotoevento src="/images/evento.png"
+      br
+      span#divisao
 
-  		br
-  		span#divisao
-
-.ladrilho
