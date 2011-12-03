@@ -12,8 +12,8 @@ gem 'nifty-generators'
 gem "compass",             "~> 0.12.alpha.0"
 gem 'compass-960-plugin'
 gem "mocha", :group => :test
-#gem 'carrierwave'
-#gem "rmagick"
+gem 'carrierwave'
+gem "rmagick"
 
 group :assets do
   gem 'coffee-rails', '~> 3.1.1'

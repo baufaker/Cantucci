@@ -1,6 +1,7 @@
-h1 Galeria
+.ladrilhoPrincipal
 
-
--@fotos.each do |foto| 
-    = image_tag(foto.picture.thumb.url) if foto.picture.present?
-    br
+  #Fotos
+    .foto
+      -@fotos.each do |foto| 
+          = image_tag(foto.picture.thumb.url) if foto.picture.present?
+          br

@@ -685,20 +685,20 @@ body {
   text-align: justify;
 }
 
-/* line 397, ../../app/sass/application.sass */
+/* line 398, ../../app/sass/application.sass */
 #fotoevento {
   margin-top: -196px;
   margin-left: 335px;
 }
 
-/* line 401, ../../app/sass/application.sass */
+/* line 402, ../../app/sass/application.sass */
 #divisao {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 340px;
-  height: 5px;
+  height: 50px;
   color: #744c1e;
   background-color: #744c1e;
   border-color: #a27847;
@@ -709,7 +709,7 @@ body {
   margin-top: 20px;
 }
 
-/* line 418, ../../app/sass/application.sass */
+/* line 417, ../../app/sass/application.sass */
 #Fotos h2 {
   height: 100px;
   background: url(/images/subtitulos/fotos.png) no-repeat;
@@ -718,7 +718,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 425, ../../app/sass/application.sass */
+/* line 424, ../../app/sass/application.sass */
 .foto {
   display: inline;
   float: left;
