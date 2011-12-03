@@ -6,13 +6,13 @@
       .calendario
   	      h4#mes=evento.data_e_hora.strftime("%B")
         	h4#dia=evento.data_e_hora.strftime("%d") 
+        	
       .acontecimento
   		    h3 =evento.title
       		br
       		p =evento.description
-      
-      img#fotoevento src="/images/evento.png"
+      		br
+      / p 
+      /        =image_tag(evento.foto.thumb.url) if evento.foto.present?
 
-      br
-      span#divisao
 

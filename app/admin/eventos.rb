@@ -16,7 +16,7 @@ ActiveAdmin.register Evento do
       f.input :title
       f.input :description
       f.input :data_e_hora
-      #f.input :foto, as: :file
+      f.input :foto, as: :file
       #f.input :remote_foto_url, label: 'URL da foto'
       f.buttons
     end
