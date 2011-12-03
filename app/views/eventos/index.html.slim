@@ -1,18 +1,21 @@
 .ladrilhoPrincipal
-	#Agenda
-		h2 Cardapio
-  
-    -@eventos.each do |evento|
+  #Agenda
+  	h2 Cardapio
+
+  -@eventos.each do |evento|
+    #column1
       .calendario
   	      h4#mes=evento.data_e_hora.strftime("%B")
         	h4#dia=evento.data_e_hora.strftime("%d") 
-      .acontecimento
+      .evento
   		    h3 =evento.title
       		br
       		p =evento.description
-      
-      =image_tag(evento.foto.thumb.url) if evento.foto.present?
-
-      br
-      span#divisao
+  
+    #column2
+      =image_tag(evento.foto.icon.url) if evento.foto.present?
+  
+  
+    br
+    span#divisao
 

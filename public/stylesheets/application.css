@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,55 +20,55 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 3, ../../app/sass/application.sass */
+/* line 5, ../../app/sass/application.sass */
 body {
   background: url(/images/texturas/madeira-pattern.jpg);
 }
 
-/* line 6, ../../app/sass/application.sass */
+/* line 11, ../../app/sass/application.sass */
 .rodape {
   margin-top: 5px;
   height: 40px;
@@ -80,7 +80,7 @@ body {
   color: #d38747;
 }
 
-/* line 16, ../../app/sass/application.sass */
+/* line 31, ../../app/sass/application.sass */
 #divrodape {
   display: inline;
   float: left;
@@ -89,18 +89,18 @@ body {
   width: 700px;
   padding-left: 120px;
 }
-/* line 20, ../../app/sass/application.sass */
+/* line 39, ../../app/sass/application.sass */
 #divrodape #faceb {
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 24, ../../app/sass/application.sass */
+/* line 47, ../../app/sass/application.sass */
 #divrodape span {
   margin-right: 15px;
   vertical-align: middle;
 }
 
-/* line 28, ../../app/sass/application.sass */
+/* line 55, ../../app/sass/application.sass */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -110,14 +110,14 @@ body {
   height: 100%;
   padding-bottom: 8px;
 }
-/* line 38, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 35, ../../app/sass/application.sass */
+/* line 69, ../../app/sass/application.sass */
 .main {
   display: inline;
   float: left;
@@ -128,7 +128,7 @@ body {
   padding-left: 60px;
 }
 
-/* line 40, ../../app/sass/application.sass */
+/* line 79, ../../app/sass/application.sass */
 .ladrilho {
   *zoom: 1;
   width: 960px;
@@ -136,14 +136,14 @@ body {
   margin: auto;
   position: relative;
 }
-/* line 38, ../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ladrilho:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 47, ../../app/sass/application.sass */
+/* line 93, ../../app/sass/application.sass */
 .esquerda {
   width: 81px;
   background: url(/images/texturas/ladrilho-esquerdo.jpg) repeat-y;
@@ -153,7 +153,7 @@ body {
   left: -81px;
 }
 
-/* line 55, ../../app/sass/application.sass */
+/* line 109, ../../app/sass/application.sass */
 .direita {
   width: 81px;
   background: url(/images/texturas/ladrilho-direito.jpg) repeat-y;
@@ -163,7 +163,7 @@ body {
   right: -81px;
 }
 
-/* line 65, ../../app/sass/application.sass */
+/* line 129, ../../app/sass/application.sass */
 #logo h1 {
   width: 340px;
   height: 132px;
@@ -173,7 +173,7 @@ body {
   margin-top: 67px;
 }
 
-/* line 73, ../../app/sass/application.sass */
+/* line 145, ../../app/sass/application.sass */
 #menuPrincipal {
   background: url(/images/texturas/menuprincipal.png) no-repeat;
   display: inline;
@@ -184,7 +184,7 @@ body {
   height: 55px;
   margin-top: 25px;
 }
-/* line 78, ../../app/sass/application.sass */
+/* line 155, ../../app/sass/application.sass */
 #menuPrincipal ul {
   display: block;
   list-style: none;
@@ -192,102 +192,102 @@ body {
   padding-left: 26px;
   padding-bottom: 17px;
 }
-/* line 84, ../../app/sass/application.sass */
+/* line 167, ../../app/sass/application.sass */
 #menuPrincipal ul li {
   float: left;
   position: relative;
   margin: 0;
 }
-/* line 88, ../../app/sass/application.sass */
+/* line 175, ../../app/sass/application.sass */
 #menuPrincipal a {
   height: 32px;
   display: block;
   text-indent: -99999px;
 }
 
-/* line 93, ../../app/sass/application.sass */
+/* line 185, ../../app/sass/application.sass */
 #fonteHome {
   background: url(/images/menu/home.png) no-repeat;
   width: 70px;
   padding-left: 39px;
 }
 
-/* line 98, ../../app/sass/application.sass */
+/* line 195, ../../app/sass/application.sass */
 #fonteHome:hover {
   background: url(/images/menu/homehover.png) no-repeat;
   width: 70px;
   padding-left: 39px;
 }
 
-/* line 104, ../../app/sass/application.sass */
+/* line 207, ../../app/sass/application.sass */
 #fonteCardapio {
   background: url(/images/menu/cardapio.png) no-repeat;
   width: 103px;
   padding-left: 45px;
 }
 
-/* line 109, ../../app/sass/application.sass */
+/* line 217, ../../app/sass/application.sass */
 #fonteCardapio:hover {
   background: url(/images/menu/cardapiohover.png) no-repeat;
   width: 103px;
   padding-left: 45px;
 }
 
-/* line 114, ../../app/sass/application.sass */
+/* line 227, ../../app/sass/application.sass */
 #fonteVinhos {
   background: url(/images/menu/vinhos.png) no-repeat;
   width: 177px;
   padding-left: 36px;
 }
 
-/* line 119, ../../app/sass/application.sass */
+/* line 237, ../../app/sass/application.sass */
 #fonteVinhos:hover {
   background: url(/images/menu/vinhoshover.png) no-repeat;
   width: 177px;
   padding-left: 36px;
 }
 
-/* line 124, ../../app/sass/application.sass */
+/* line 247, ../../app/sass/application.sass */
 #fonteAgenda {
   background: url(/images/menu/agenda.png) no-repeat;
   width: 88px;
   padding-left: 36px;
 }
 
-/* line 129, ../../app/sass/application.sass */
+/* line 257, ../../app/sass/application.sass */
 #fonteAgenda:hover {
   background: url(/images/menu/agendahover.png) no-repeat;
   width: 88px;
   padding-left: 36px;
 }
 
-/* line 134, ../../app/sass/application.sass */
+/* line 267, ../../app/sass/application.sass */
 #fonteContato {
   background: url(/images/menu/cont.png) no-repeat;
   width: 90px;
 }
 
-/* line 138, ../../app/sass/application.sass */
+/* line 275, ../../app/sass/application.sass */
 #fonteContato:hover {
   background: url(/images/menu/contatohover.png) no-repeat;
   width: 90px;
 }
 
-/* line 142, ../../app/sass/application.sass */
+/* line 283, ../../app/sass/application.sass */
 #fonteFotos {
   background: url(/images/menu/fotos.png) no-repeat;
   width: 67px;
   padding-left: 25px;
 }
 
-/* line 147, ../../app/sass/application.sass */
+/* line 293, ../../app/sass/application.sass */
 #fonteFotos:hover {
   background: url(/images/menu/fotoshover.png) no-repeat;
   width: 67px;
   padding-left: 25px;
 }
 
-/* line 152, ../../app/sass/application.sass */
+/* line 303, ../../app/sass/application.sass */
 .ladrilhoPrincipal {
   background: url(/images/texturas/bora.jpg) repeat-y;
   display: inline;
@@ -299,7 +299,7 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 159, ../../app/sass/application.sass */
+/* line 317, ../../app/sass/application.sass */
 .ladrilhoPrincipalHome {
   background: url(/images/texturas/vamov.png) no-repeat;
   display: inline;
@@ -310,13 +310,13 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 164, ../../app/sass/application.sass */
+/* line 327, ../../app/sass/application.sass */
 #fotoHome {
   height: 204px;
   margin: auto;
 }
 
-/* line 168, ../../app/sass/application.sass */
+/* line 335, ../../app/sass/application.sass */
 #divindex {
   display: inline;
   float: left;
@@ -325,7 +325,7 @@ body {
   width: 820px;
 }
 
-/* line 171, ../../app/sass/application.sass */
+/* line 341, ../../app/sass/application.sass */
 #cont {
   background: url(/images/texturas/cont1.png) no-repeat;
   height: 452px;
@@ -337,7 +337,7 @@ body {
   width: 520px;
 }
 
-/* line 177, ../../app/sass/application.sass */
+/* line 353, ../../app/sass/application.sass */
 #QuemSomos {
   display: inline;
   float: left;
@@ -346,7 +346,7 @@ body {
   width: 460px;
   padding-right: 60px;
 }
-/* line 180, ../../app/sass/application.sass */
+/* line 359, ../../app/sass/application.sass */
 #QuemSomos h2 {
   height: 112px;
   width: 300px;
@@ -355,7 +355,7 @@ body {
   margin-left: 120px;
   margin-top: 20px;
 }
-/* line 187, ../../app/sass/application.sass */
+/* line 373, ../../app/sass/application.sass */
 #QuemSomos p {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 15px;
@@ -366,7 +366,7 @@ body {
   margin-top: -20px;
 }
 
-/* line 196, ../../app/sass/application.sass */
+/* line 391, ../../app/sass/application.sass */
 #col2 {
   display: inline;
   float: left;
@@ -377,7 +377,7 @@ body {
   margin-right: 0;
 }
 
-/* line 201, ../../app/sass/application.sass */
+/* line 401, ../../app/sass/application.sass */
 #enquete {
   background: url(/images/texturas/enquete.png) no-repeat;
   height: 247px;
@@ -391,17 +391,17 @@ body {
   font-weight: bold;
   line-hight: 30px;
 }
-/* line 213, ../../app/sass/application.sass */
+/* line 425, ../../app/sass/application.sass */
 #enquete h4 {
   padding-left: 10px;
 }
-/* line 215, ../../app/sass/application.sass */
+/* line 429, ../../app/sass/application.sass */
 #enquete input {
   margin-bottom: 20px;
   margin-right: 15px;
 }
 
-/* line 219, ../../app/sass/application.sass */
+/* line 437, ../../app/sass/application.sass */
 .botao {
   color: #533210;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -409,7 +409,7 @@ body {
   font-weight: bold;
 }
 
-/* line 225, ../../app/sass/application.sass */
+/* line 449, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
@@ -419,7 +419,7 @@ body {
   margin-top: 34px;
 }
 
-/* line 234, ../../app/sass/application.sass */
+/* line 467, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
   background: url(/images/subtitulos/Cardapio.png) no-repeat;
@@ -428,7 +428,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 241, ../../app/sass/application.sass */
+/* line 481, ../../app/sass/application.sass */
 .categoriaCardapio {
   display: inline;
   float: left;
@@ -441,7 +441,7 @@ body {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #533210;
 }
-/* line 248, ../../app/sass/application.sass */
+/* line 495, ../../app/sass/application.sass */
 .categoriaCardapio span {
   align: left;
   display: inline;
@@ -457,7 +457,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 258, ../../app/sass/application.sass */
+/* line 515, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -468,7 +468,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 263, ../../app/sass/application.sass */
+/* line 525, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
@@ -479,7 +479,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 268, ../../app/sass/application.sass */
+/* line 535, ../../app/sass/application.sass */
 .categoriaCardapio h5 {
   padding-left: 0px;
   font-size: 17px;
@@ -489,7 +489,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 272, ../../app/sass/application.sass */
+/* line 543, ../../app/sass/application.sass */
 .categoriaCardapio .fotoCardapio {
   display: inline;
   float: left;
@@ -500,7 +500,7 @@ body {
   margin-top: -85px;
 }
 
-/* line 278, ../../app/sass/application.sass */
+/* line 555, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
   background: url(/images/subtitulos/cartadevinhos.png) no-repeat;
@@ -514,7 +514,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 287, ../../app/sass/application.sass */
+/* line 573, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
   background: url(/images/subtitulos/contato.png) no-repeat;
@@ -528,7 +528,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 295, ../../app/sass/application.sass */
+/* line 589, ../../app/sass/application.sass */
 #formcontato {
   display: inline;
   float: left;
@@ -537,7 +537,7 @@ body {
   width: 700px;
   padding-left: 60px;
 }
-/* line 298, ../../app/sass/application.sass */
+/* line 595, ../../app/sass/application.sass */
 #formcontato label {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
@@ -545,7 +545,7 @@ body {
   align: center;
 }
 
-/* line 304, ../../app/sass/application.sass */
+/* line 607, ../../app/sass/application.sass */
 #coluna1 {
   display: inline;
   float: left;
@@ -553,7 +553,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 307, ../../app/sass/application.sass */
+/* line 613, ../../app/sass/application.sass */
 #coluna1 input {
   background-color: #533210;
   -webkit-border-radius: 6px;
@@ -564,7 +564,7 @@ body {
   width: 200px;
 }
 
-/* line 316, ../../app/sass/application.sass */
+/* line 631, ../../app/sass/application.sass */
 #coluna2 {
   display: inline;
   float: left;
@@ -574,14 +574,14 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 321, ../../app/sass/application.sass */
+/* line 641, ../../app/sass/application.sass */
 #coluna2 input {
   width: 104px;
   height: 37px;
   margin-left: 100px;
 }
 
-/* line 326, ../../app/sass/application.sass */
+/* line 651, ../../app/sass/application.sass */
 #contatotext {
   display: inline;
   float: left;
@@ -598,7 +598,7 @@ body {
   padding-top: 10px;
 }
 
-/* line 337, ../../app/sass/application.sass */
+/* line 673, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -608,7 +608,7 @@ body {
   font-weight: bold;
 }
 
-/* line 346, ../../app/sass/application.sass */
+/* line 691, ../../app/sass/application.sass */
 #Agenda h2 {
   height: 100px;
   background: url(/images/subtitulos/Agenda.png) no-repeat;
@@ -617,7 +617,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 353, ../../app/sass/application.sass */
+/* line 705, ../../app/sass/application.sass */
 .calendario {
   background: url(/images/calendario.png) no-repeat;
   height: 106px;
@@ -630,7 +630,7 @@ body {
   margin-left: 110px;
   margin-top: 28px;
 }
-/* line 361, ../../app/sass/application.sass */
+/* line 721, ../../app/sass/application.sass */
 .calendario #mes {
   display: inline;
   float: left;
@@ -645,7 +645,7 @@ body {
   color: white;
   font-weight: bold;
 }
-/* line 371, ../../app/sass/application.sass */
+/* line 741, ../../app/sass/application.sass */
 .calendario #dia {
   display: inline;
   float: left;
@@ -660,24 +660,37 @@ body {
   color: white;
 }
 
-/* line 380, ../../app/sass/application.sass */
-.evento {
+/* line 759, ../../app/sass/application.sass */
+#column1 {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 280px;
-  padding-left: 240px;
+  width: 400px;
+  padding-left: 120px;
 }
-/* line 384, ../../app/sass/application.sass */
+
+/* line 767, ../../app/sass/application.sass */
+#column2 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+  padding-left: 60px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 783, ../../app/sass/application.sass */
 .evento h3 {
   font-size: 20px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #492e20;
   font-weight: bold;
-  margin-top: -107px;
+  margin-top: 107px;
 }
-/* line 391, ../../app/sass/application.sass */
+/* line 797, ../../app/sass/application.sass */
 .evento p {
   font-size: 17px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -685,31 +698,31 @@ body {
   text-align: justify;
 }
 
-/* line 398, ../../app/sass/application.sass */
+/* line 811, ../../app/sass/application.sass */
 #fotoevento {
   margin-top: -196px;
   margin-left: 335px;
 }
 
-/* line 402, ../../app/sass/application.sass */
+/* line 819, ../../app/sass/application.sass */
 #divisao {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 340px;
-  height: 50px;
+  height: 5px;
   color: #744c1e;
   background-color: #744c1e;
   border-color: #a27847;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  margin-left: -138px;
+  margin-left: 138px;
   margin-top: 20px;
 }
 
-/* line 417, ../../app/sass/application.sass */
+/* line 849, ../../app/sass/application.sass */
 #Fotos h2 {
   height: 100px;
   background: url(/images/subtitulos/fotos.png) no-repeat;
@@ -718,7 +731,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 424, ../../app/sass/application.sass */
+/* line 863, ../../app/sass/application.sass */
 .foto {
   display: inline;
   float: left;
