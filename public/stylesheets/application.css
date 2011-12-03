@@ -673,9 +673,10 @@ body {
   width: 160px;
   margin-left: 0;
   margin-right: 0;
+  padding-top: 22px;
 }
 
-/* line 769, ../../app/sass/application.sass */
+/* line 771, ../../app/sass/application.sass */
 .evento h3 {
   display: inline;
   float: left;
@@ -689,7 +690,7 @@ body {
   padding-left: 40px;
   line-height: 3em;
 }
-/* line 787, ../../app/sass/application.sass */
+/* line 789, ../../app/sass/application.sass */
 .evento p {
   display: inline;
   float: left;
@@ -702,13 +703,7 @@ body {
   text-align: justify;
 }
 
-/* line 803, ../../app/sass/application.sass */
-#fotoevento {
-  margin-top: -196px;
-  margin-left: 335px;
-}
-
-/* line 811, ../../app/sass/application.sass */
+/* line 805, ../../app/sass/application.sass */
 #divisao {
   display: inline;
   float: left;
@@ -726,7 +721,7 @@ body {
   margin-top: 20px;
 }
 
-/* line 841, ../../app/sass/application.sass */
+/* line 835, ../../app/sass/application.sass */
 #Fotos h2 {
   height: 100px;
   background: url(/images/subtitulos/fotos.png) no-repeat;
@@ -735,8 +730,8 @@ body {
   margin-top: 65px;
 }
 
-/* line 855, ../../app/sass/application.sass */
-.foto {
+/* line 853, ../../app/sass/application.sass */
+.containerFotos img {
   display: inline;
   float: left;
   margin-left: 10px;
