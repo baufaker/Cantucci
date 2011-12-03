@@ -88,16 +88,16 @@ body {
   margin-right: 10px;
   width: 700px;
   padding-left: 120px;
-  vertical-align: middle;
 }
-/* line 21, ../../app/sass/application.sass */
+/* line 20, ../../app/sass/application.sass */
 #divrodape #faceb {
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 25, ../../app/sass/application.sass */
+/* line 24, ../../app/sass/application.sass */
 #divrodape span {
   margin-right: 15px;
+  vertical-align: middle;
 }
 
 /* line 28, ../../app/sass/application.sass */
@@ -619,7 +619,7 @@ body {
 
 /* line 353, ../../app/sass/application.sass */
 .calendario {
-  background: url(/images/subtitulos/calendario.png) no-repeat;
+  background: url(/images/calendario.png) no-repeat;
   height: 106px;
   display: inline;
   float: left;
@@ -661,7 +661,7 @@ body {
 }
 
 /* line 380, ../../app/sass/application.sass */
-.acontecimento {
+.evento {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -670,7 +670,7 @@ body {
   padding-left: 240px;
 }
 /* line 384, ../../app/sass/application.sass */
-.acontecimento h3 {
+.evento h3 {
   font-size: 20px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #492e20;
@@ -678,7 +678,7 @@ body {
   margin-top: -107px;
 }
 /* line 391, ../../app/sass/application.sass */
-.acontecimento p {
+.evento p {
   font-size: 17px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   color: #492e20;
