@@ -10,12 +10,12 @@
         span
         br
         br
-        - @elementos.each do |e| 
-          - if e.cardapio_categoria_id == cat.id
-            h4 = e.title
-            br
-            br
-            h5 = e.description.html_safe
-        br
-        br
+        p
+          - @elementos.each do |e| 
+            - if e.cardapio_categoria_id == cat.id
+              h4 = e.title
+              br
+              br
+              h5 = e.description.html_safe
+
 
