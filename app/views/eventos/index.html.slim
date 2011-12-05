@@ -3,7 +3,7 @@
   	h2 Agenda
 
   -@eventos.each do |evento|
-    #column1
+    .column1
       .calendario
   	      h4#mes=evento.data_e_hora.strftime("%B")
         	h4#dia=evento.data_e_hora.strftime("%d") 
@@ -12,7 +12,7 @@
       		br
       		p =evento.description
   
-    #column2
+    .column2
       =image_tag(evento.foto.icon.url) if evento.foto.present?
   
   

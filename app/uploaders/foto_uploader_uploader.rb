@@ -38,6 +38,10 @@ class FotoUploaderUploader < CarrierWave::Uploader::Base
     process :resize_to_fill => [160, 212]
   end
   
+  version :cardapio do
+    process :resize_to_fill => [212, 212]
+  end
+  
   version :open do
      process :resize_to_fill => [800, 600]
   end

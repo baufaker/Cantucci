@@ -243,8 +243,8 @@ body
     margin-top: 65px
 
 .categoriaCardapio
-  +grid(10)
-  +grid_prefix(2)
+  +grid(12)
+  +grid-prefix(1)
   margin-top: 10px
   margin-bottom: 10px
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif
@@ -272,12 +272,20 @@ body
     font-size: 17px
     +grid(6)
     margin-bottom: 16px
-   
-        
+       
   .fotoCardapio
     +grid(4)
-    margin-top: -85px
+    
+.colunaEsquerda
+  +grid(7)
 
+.colunaDireita
+  +grid(4)
+  +alpha
+  +omega
+  
+  img
+    margin-top: 20px
 
 #Carta
   h2
@@ -380,15 +388,16 @@ body
     font-size: 50px
     color: #ffffff
 
-#column1
+.column1
   +grid(9)
   +grid-prefix(1)
 
-#column2
+.column2
   +grid(3)
   +alpha
   +omega
   padding-top: 22px
+  
 
 .evento
   
