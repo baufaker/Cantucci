@@ -1,23 +1,21 @@
 .ladrilhoPrincipal
 	#Cardapio
 		h2 Cardapio
+		
+        - @categorias.each do |cat|
+          .categoriaCardapio
+            h3 = cat.title
+            br
+            span
+            br
+            br
+            - @elementos.each do |e| 
+              - if e.cardapio_categoria_id == cat.id
+                h4 = e.title
+                br
+                h5 = e.description.html_safe
+                br
+                br
 
-	.categoriaCardapio
-      - @categorias.each do |cat|
-        br
-        br
-        h3 = cat.title
-        br
-        br
-        span
-        br
-        br
-        p
-          - @elementos.each do |e| 
-            - if e.cardapio_categoria_id == cat.id
-              h4 = e.title
-              br
-              br
-              h5 = e.description.html_safe
 
 
