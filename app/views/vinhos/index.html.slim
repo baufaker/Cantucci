@@ -1,18 +1,18 @@
 .ladrilhoPrincipal
 
 
-  .categoriaCardapio
+
     - @categorias.each do |cat|
-           h3 = cat.title
-           br
-           span
-           br
-           - @vinhos.each do |v| 
-              - if v.cardapio_categoria_id == cat.id
-                h4 = v.title
-                br
-                p = v.description.html_safe
-                br
+     h3 = cat.title
+     br
+     span
+     br
+     - @vinhos.each do |v| 
+        - if v.cardapio_categoria_id == cat.id
+          h4 = v.title
+          br
+          p = v.description.html_safe
+          br
 
 		
 		
