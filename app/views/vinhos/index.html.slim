@@ -7,6 +7,12 @@
         br
         span
         br
+        -@vinhos.each do |v|
+          - if v.vinho_categoria_id == cat.id
+            h4 = v.title
+            br
+            p = v.description.html_safe
+            br
     
   
     / - @categorias.each do |cat|
