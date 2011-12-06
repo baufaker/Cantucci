@@ -19,12 +19,12 @@ ActiveAdmin.register Vinho do
     end
   end
   
-  # form do |f|
-  #   f.inputs "Vinhos" do
-  #           f.input :vinho_categoria
-  #           f.input :title
-  #           f.input :description
-  #         end
-  #   f.buttons
-  # end
+  form do |f|
+    f.inputs "Vinhos" do
+            f.input :vinho_categoria
+            f.input :title
+            f.input :description
+          end
+    f.buttons
+  end
 end

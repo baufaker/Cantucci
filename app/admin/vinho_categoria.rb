@@ -10,7 +10,7 @@ ActiveAdmin.register VinhoCategoria do
    form do |f|
      f.inputs "Categorias" do
              f.input :title
-             f.input :foto, as: :file
+             #f.input :foto, as: :file
            end
      f.buttons
    end
