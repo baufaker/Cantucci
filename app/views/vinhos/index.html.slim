@@ -4,16 +4,8 @@
 
     - @categorias.each do |cat|
         .categoriaCardapio
-            h3 = cat.title
-            br
-            span
-            br
-            - @vinhos.each do |v| 
-               - if v.cardapio_categoria_id == cat.id
-                 h4 = v.title
-                 br
-                 p = v.description.html_safe
-                 br
+          .colunaDireita
+               =image_tag(cat.foto.cardapio.url) if cat.foto.present?
    
 		
 		
