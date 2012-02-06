@@ -1,4 +1,4 @@
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -114,7 +114,7 @@ body {
   height: 100%;
   padding-bottom: 8px;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
@@ -140,7 +140,7 @@ body {
   margin: auto;
   position: relative;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-0.12.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .ladrilho:after {
   content: "";
   display: table;
@@ -367,10 +367,14 @@ body {
   text-align: justify;
   color: #492e20;
   heigh: 320px;
+}
+
+/* line 397, ../../app/sass/application.sass */
+.paragrafo {
   margin-top: -20px;
 }
 
-/* line 399, ../../app/sass/application.sass */
+/* line 403, ../../app/sass/application.sass */
 #col2 {
   display: inline;
   float: left;
@@ -381,7 +385,7 @@ body {
   margin-right: 0;
 }
 
-/* line 409, ../../app/sass/application.sass */
+/* line 413, ../../app/sass/application.sass */
 #enquete {
   background: url(/images/texturas/enquete.png) no-repeat;
   height: 247px;
@@ -395,17 +399,17 @@ body {
   font-weight: bold;
   line-hight: 30px;
 }
-/* line 433, ../../app/sass/application.sass */
+/* line 437, ../../app/sass/application.sass */
 #enquete h4 {
   padding-left: 10px;
 }
-/* line 437, ../../app/sass/application.sass */
+/* line 441, ../../app/sass/application.sass */
 #enquete input {
   margin-bottom: 20px;
   margin-right: 15px;
 }
 
-/* line 445, ../../app/sass/application.sass */
+/* line 449, ../../app/sass/application.sass */
 .botao {
   color: #533210;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -413,7 +417,7 @@ body {
   font-weight: bold;
 }
 
-/* line 457, ../../app/sass/application.sass */
+/* line 461, ../../app/sass/application.sass */
 #face {
   text-indent: -99999px;
   background: url(/images/facebook.png) no-repeat;
@@ -423,7 +427,7 @@ body {
   margin-top: 34px;
 }
 
-/* line 475, ../../app/sass/application.sass */
+/* line 479, ../../app/sass/application.sass */
 #Cardapio h2 {
   height: 100px;
   background: url(/images/subtitulos/Cardapio.png) no-repeat;
@@ -432,7 +436,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 489, ../../app/sass/application.sass */
+/* line 493, ../../app/sass/application.sass */
 .categoriaCardapio {
   display: inline;
   float: left;
@@ -446,7 +450,7 @@ body {
   color: #533210;
   line-height: 1.3em;
 }
-/* line 505, ../../app/sass/application.sass */
+/* line 509, ../../app/sass/application.sass */
 .categoriaCardapio span {
   align: left;
   display: inline;
@@ -462,7 +466,7 @@ body {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 525, ../../app/sass/application.sass */
+/* line 529, ../../app/sass/application.sass */
 .categoriaCardapio h3 {
   display: inline;
   float: left;
@@ -472,7 +476,7 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 533, ../../app/sass/application.sass */
+/* line 537, ../../app/sass/application.sass */
 .categoriaCardapio h4 {
   font-size: 18px;
   font-weight: bold;
@@ -482,7 +486,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 541, ../../app/sass/application.sass */
+/* line 545, ../../app/sass/application.sass */
 .categoriaCardapio p {
   font-size: 17px;
   display: inline;
@@ -492,7 +496,7 @@ body {
   width: 340px;
   margin-bottom: 16px;
 }
-/* line 551, ../../app/sass/application.sass */
+/* line 555, ../../app/sass/application.sass */
 .categoriaCardapio .fotoCardapio {
   display: inline;
   float: left;
@@ -501,7 +505,7 @@ body {
   width: 220px;
 }
 
-/* line 557, ../../app/sass/application.sass */
+/* line 561, ../../app/sass/application.sass */
 .colunaEsquerda {
   display: inline;
   float: left;
@@ -510,7 +514,7 @@ body {
   width: 400px;
 }
 
-/* line 563, ../../app/sass/application.sass */
+/* line 567, ../../app/sass/application.sass */
 .colunaDireita {
   display: inline;
   float: left;
@@ -520,12 +524,12 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 573, ../../app/sass/application.sass */
+/* line 577, ../../app/sass/application.sass */
 .colunaDireita img {
   margin-top: 20px;
 }
 
-/* line 581, ../../app/sass/application.sass */
+/* line 585, ../../app/sass/application.sass */
 #Carta h2 {
   height: 100px;
   background: url(/images/subtitulos/cartadevinhos.png) no-repeat;
@@ -539,7 +543,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 599, ../../app/sass/application.sass */
+/* line 603, ../../app/sass/application.sass */
 #Contato h2 {
   height: 100px;
   background: url(/images/subtitulos/contato.png) no-repeat;
@@ -553,7 +557,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 615, ../../app/sass/application.sass */
+/* line 619, ../../app/sass/application.sass */
 #formcontato {
   display: inline;
   float: left;
@@ -562,7 +566,7 @@ body {
   width: 700px;
   padding-left: 60px;
 }
-/* line 621, ../../app/sass/application.sass */
+/* line 625, ../../app/sass/application.sass */
 #formcontato label {
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
@@ -570,7 +574,7 @@ body {
   align: center;
 }
 
-/* line 633, ../../app/sass/application.sass */
+/* line 637, ../../app/sass/application.sass */
 #coluna1 {
   display: inline;
   float: left;
@@ -578,7 +582,7 @@ body {
   margin-right: 10px;
   width: 340px;
 }
-/* line 639, ../../app/sass/application.sass */
+/* line 643, ../../app/sass/application.sass */
 #coluna1 input {
   background-color: #533210;
   -webkit-border-radius: 6px;
@@ -590,7 +594,7 @@ body {
   color: #aaaaaa;
 }
 
-/* line 659, ../../app/sass/application.sass */
+/* line 663, ../../app/sass/application.sass */
 #coluna2 {
   display: inline;
   float: left;
@@ -600,14 +604,14 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 669, ../../app/sass/application.sass */
+/* line 673, ../../app/sass/application.sass */
 #coluna2 input {
   width: 104px;
   height: 37px;
   margin-left: 100px;
 }
 
-/* line 679, ../../app/sass/application.sass */
+/* line 683, ../../app/sass/application.sass */
 #contatotext {
   display: inline;
   float: left;
@@ -627,7 +631,7 @@ body {
   line-height: 1.3em;
 }
 
-/* line 707, ../../app/sass/application.sass */
+/* line 711, ../../app/sass/application.sass */
 #contatoinfo {
   margin-top: 72px;
   font-family: Ebrima, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -637,7 +641,7 @@ body {
   font-weight: bold;
 }
 
-/* line 725, ../../app/sass/application.sass */
+/* line 729, ../../app/sass/application.sass */
 #Agenda h2 {
   height: 100px;
   background: url(/images/subtitulos/agenda.png) no-repeat;
@@ -646,7 +650,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 739, ../../app/sass/application.sass */
+/* line 743, ../../app/sass/application.sass */
 .calendario {
   background: url(/images/calendario.png) no-repeat;
   height: 106px;
@@ -657,7 +661,7 @@ body {
   width: 100px;
   margin-top: 28px;
 }
-/* line 751, ../../app/sass/application.sass */
+/* line 755, ../../app/sass/application.sass */
 .calendario #mes {
   display: inline;
   float: left;
@@ -670,7 +674,7 @@ body {
   color: white;
   font-weight: bold;
 }
-/* line 767, ../../app/sass/application.sass */
+/* line 771, ../../app/sass/application.sass */
 .calendario #dia {
   display: inline;
   float: left;
@@ -683,7 +687,7 @@ body {
   color: white;
 }
 
-/* line 781, ../../app/sass/application.sass */
+/* line 785, ../../app/sass/application.sass */
 .column1 {
   display: inline;
   float: left;
@@ -693,7 +697,7 @@ body {
   padding-left: 60px;
 }
 
-/* line 789, ../../app/sass/application.sass */
+/* line 793, ../../app/sass/application.sass */
 .column2 {
   display: inline;
   float: left;
@@ -705,7 +709,7 @@ body {
   padding-top: 22px;
 }
 
-/* line 807, ../../app/sass/application.sass */
+/* line 811, ../../app/sass/application.sass */
 .evento h3 {
   display: inline;
   float: left;
@@ -719,7 +723,7 @@ body {
   padding-left: 40px;
   line-height: 3em;
 }
-/* line 825, ../../app/sass/application.sass */
+/* line 829, ../../app/sass/application.sass */
 .evento p {
   display: inline;
   float: left;
@@ -732,7 +736,7 @@ body {
   text-align: justify;
 }
 
-/* line 841, ../../app/sass/application.sass */
+/* line 845, ../../app/sass/application.sass */
 #divisao {
   display: inline;
   float: left;
@@ -750,7 +754,7 @@ body {
   margin-top: 20px;
 }
 
-/* line 871, ../../app/sass/application.sass */
+/* line 875, ../../app/sass/application.sass */
 #Fotos h2 {
   height: 100px;
   background: url(/images/subtitulos/Fotos.png) no-repeat;
@@ -759,7 +763,7 @@ body {
   margin-top: 65px;
 }
 
-/* line 889, ../../app/sass/application.sass */
+/* line 893, ../../app/sass/application.sass */
 .containerFotos img {
   display: inline;
   float: left;

@@ -1,18 +1,19 @@
 .ladrilhoPrincipal
-
-  -@categorias.each do |categoria|
-    .categoriaCardapio
-      .colunaEsquerda
-        h3 = categoria.title
-        br
-        span
-        br
-        -@vinhos.each do |v|
-          - if v.vinho_categoria_id == categoria.id
-            h4 = v.title
-            br
-            p = v.description.html_safe 
-            br
+  #Carta
+    h2 Carta de Vinhos
+    -@categorias.each do |categoria|
+      .categoriaCardapio
+        .colunaEsquerda
+          h3 = categoria.title
+          br
+          span
+          br
+          -@vinhos.each do |v|
+            - if v.vinho_categoria_id == categoria.id
+              h4 = v.title
+              br
+              p = v.description.html_safe 
+              br
 
     
   
