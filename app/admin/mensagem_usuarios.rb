@@ -1,7 +1,9 @@
+# encoding: utf-8
+
 ActiveAdmin.register MensagemUsuario do
   
 
-  menu :label => "Mensagens de Usuarios", :priority => 2
+  menu :label => "Mensagens de Usuários", :priority => 2
 
   
   index do 
@@ -12,7 +14,7 @@ ActiveAdmin.register MensagemUsuario do
       truncate(msg.message).html_safe
     end
     column "Recebido em", :created_at
-    column "Acoes" do |msg|
+    column "Ações" do |msg|
       link_to "View", admin_mensagem_usuario_path(msg.id)
       #link_to "Deletar", destroy_admin_mensagem_usuario_path(msg.id)
     end

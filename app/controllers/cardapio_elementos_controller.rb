@@ -1,8 +1,8 @@
 class CardapioElementosController < ApplicationController
   
   def index 
-      @categorias = CardapioCategoria.all
-      @elementos = CardapioElemento.all
+      @categorias = CardapioCategoria.order("priority ASC");
+      @elementos = CardapioElemento.order("priority ASC")
   end
   
 end

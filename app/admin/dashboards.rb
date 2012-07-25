@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 ActiveAdmin::Dashboards.build do
 
   # Define your dashboard sections here. Each block will be
@@ -6,7 +8,7 @@ ActiveAdmin::Dashboards.build do
   
 
   
-  section "Ultimos vinhos adicionados", :priority => 3 do
+  section "Últimos vinhos adicionados", :priority => 3 do
     @vinhos = Vinho.limit(5).order("updated_at DESC")
     ul do
       @vinhos.each do |vinho|
@@ -16,7 +18,7 @@ ActiveAdmin::Dashboards.build do
   end
   
   
-  section "Ultimas enquetes", :priority => 1 do
+  section "Últimas enquetes", :priority => 1 do
     @enquetes = Enquete.limit(5).order("updated_at DESC")
     ul do
       @enquetes.each do |enquete|
@@ -25,7 +27,7 @@ ActiveAdmin::Dashboards.build do
     end
   end
   
-  section "Ultimos eventos adicionados", :priority => 2 do
+  section "Últimos eventos adicionados", :priority => 2 do
     @eventos = Evento.limit(5).order("updated_at DESC")
     ul do
       @eventos.each do |evento|
@@ -34,7 +36,7 @@ ActiveAdmin::Dashboards.build do
     end
   end
   
-  section "Ultimos Comes e Bebes adicionados", :priority => 4 do
+  section "Últimos Comes e Bebes adicionados", :priority => 4 do
     @comesebebes = CardapioElemento.limit(5).order("updated_at DESC")
     ul do
       @comesebebes.each do |el|

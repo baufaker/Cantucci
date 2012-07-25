@@ -1,6 +1,6 @@
 ActiveAdmin.register Vinho do
   
-  menu :priority => 5
+  menu :parent => "Carta de Vinhos", :priority => 2
   
   index do 
     column "Nome", :title

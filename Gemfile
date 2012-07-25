@@ -7,6 +7,7 @@ gem 'sqlite3', group: :development
 gem 'activeadmin'
 gem 'tinymce-rails'
 gem 'slim'
+gem 'devise'
 gem 'sass-rails',   '~> 3.1.4'
 gem 'nifty-generators'
 gem "compass",             "~> 0.12.alpha.0"
@@ -14,6 +15,7 @@ gem 'compass-960-plugin'
 gem "mocha", :group => :test
 gem 'carrierwave'
 gem "rmagick"
+gem 'rails-i18n'
 
 group :assets do
   gem 'coffee-rails', '~> 3.1.1'

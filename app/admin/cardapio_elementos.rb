@@ -1,13 +1,15 @@
-ActiveAdmin.register CardapioElemento do
+# encoding: utf-8
 
-  menu :label => "Comidas e Bebidas", :priority => 4
+ActiveAdmin.register CardapioElemento do
+  menu :parent => "Cardápio", :label => "Comidas e Bebidas(À La Carte)", :priority => 1
   
   index do 
     column "Nome", :title
-    column "Descricao", :description do |el| 
+    column "Descrição", :description do |el| 
       truncate(el.description).html_safe
     end
     column "Categoria", :cardapio_categoria
+    column "Prioridade", :priority
     column "Modificado em", :updated_at
     default_actions
   end
@@ -21,9 +23,10 @@ ActiveAdmin.register CardapioElemento do
   
   form do |f|
     f.inputs "Elementos" do
-            f.input :cardapio_categoria
-            f.input :title
-            f.input :description
+            f.input :cardapio_categoria, :label => "Categoria"
+            f.input :title, :label => "Título"
+            f.input :priority, :label => "Prioridade"
+            f.input :description, :label => "Descrição"
           end
     f.buttons
   end
