@@ -1,7 +1,8 @@
 # encoding: utf-8
 
 ActiveAdmin.register Evento do
-  menu :label => "Agenda", :priority => 3
+  
+  menu :label => "Agenda", :priority => 3, :parent => "Páginas"
   
   index do 
     column "Nome do Evento", :title

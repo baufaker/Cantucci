@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120725192340) do
+ActiveRecord::Schema.define(:version => 20120728042329) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -63,6 +63,25 @@ ActiveRecord::Schema.define(:version => 20120725192340) do
     t.integer  "priority",              :default => 0
   end
 
+  create_table "cardapio_semanal_elementos", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "week_day"
+    t.integer  "priority",    :default => 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "encomenda_elementos", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "price"
+    t.string   "photo"
+    t.integer  "priority"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "enquetes", :force => true do |t|
     t.string   "pergunta"
     t.string   "op1"
@@ -97,12 +116,14 @@ ActiveRecord::Schema.define(:version => 20120725192340) do
     t.text     "message"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "subject"
   end
 
   create_table "vinho_categoria", :force => true do |t|
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "priority",   :default => 0
   end
 
   create_table "vinhos", :force => true do |t|
@@ -111,6 +132,7 @@ ActiveRecord::Schema.define(:version => 20120725192340) do
     t.integer  "vinho_categoria_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "priority",           :default => 0
   end
 
 end

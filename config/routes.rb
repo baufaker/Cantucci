@@ -32,7 +32,9 @@ Cantucci::Application.routes.draw do
   
   match '/fotos/' => 'fotos#index', :as => :fotos
   
-
+  match '/cardapio_semanal/' => "cardapio_semanal_elementos#index", :as => :cardapio_semanal
+  
+  match '/encomendas/' => "encomendas#index"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

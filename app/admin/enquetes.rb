@@ -1,6 +1,9 @@
 # encoding: utf-8
 
 ActiveAdmin.register Enquete do
+  
+  menu :parent => "Páginas"
+  
   form do |f|
     f.inputs "Enquete" do
             f.input :pergunta, :label => "Pergunta"

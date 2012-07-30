@@ -2,23 +2,21 @@
 	#Cardapio
 		h2 Cardapio
 		
-        - @categorias.each do |cat|
-          .categoriaCardapio
-            .colunaDireita
-              =image_tag(cat.foto.cardapio.url) if cat.foto.present?
-            .colunaEsquerda
-              h3 = cat.title
-              br
-              span
-              br
-              - @elementos.each do |e| 
-                - if e.cardapio_categoria_id == cat.id
-                  h4 = e.title
-                  br
-                  p = e.description.html_safe
-                  br
-                  
-
+		- @categorias.each do |cat|
+			.categoriaCardapio
+				.colunaDireita
+					=image_tag(cat.foto.cardapio.url) if cat.foto.present?
+				.colunaEsquerda
+					h3 = cat.title
+					br
+					span
+					br
+					- @elementos.each do |e| 
+						- if e.cardapio_categoria_id == cat.id
+							h4 = e.title
+							br
+							p = e.description.html_safe
+							br
 
 
 

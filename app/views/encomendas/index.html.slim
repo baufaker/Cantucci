@@ -1,0 +1,21 @@
+- @encomendas.each do |e|
+	= e.title
+	= form_for :form, :url => {controller: "encomendas", action: "index"} do
+		input type="hidden" value=e.id name="encomenda"
+		input type="submit" value="Encomendar!" name="resposta"
+
+p Carrinho de encomendas:
+- if @carrinho.blank?
+	p Você ainda não pegou nenhuma encomenda!
+- else
+	- @carrinho.each do |c|
+		p = c.title
+		= form_for :form, :url => {controller: "encomendas", action: "index"} do
+			input type="hidden" value=c.id name="encomenda"
+			input type="submit" value="Remover!" name="resposta"
+			
+p total: R$#{@precoTotal}
+
+= link_to 'Checkout!', '/checkout'
+
+  

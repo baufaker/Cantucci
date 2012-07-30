@@ -1,7 +1,8 @@
 .ladrilhoPrincipal
   #Contato
     h2 Contato
-  
+    = flash[:notice]
+    
     = form_for @mensagem_usuario, :html => { id: "formcontato" } do |f|
       #coluna1
         = f.label "Nome:"
@@ -16,6 +17,10 @@
         br
         = f.text_field :phone, placeholder: "3328-5242", id: "telefone"
         br
+        = f.label "Assunto:"
+        br
+        = f.text_field :subject, placeholder: "Sugestões", id: "assunto"
+        br
         p#contatoinfo
           span Contato e resevas: 3328-5242  cantucci.caffe@gmail.com
           br
@@ -24,7 +29,7 @@
           span CEP: 70835-550 Brasília DF.
 
       #coluna2
-        = f.label "Sugestões/Críticas"
+        = f.label "Mensagem:"
         br
         = f.text_area :message, placeholder: "Digite sua mensagem aqui", rows: "12", id: "contatotext"
         br

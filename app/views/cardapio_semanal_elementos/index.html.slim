@@ -1,0 +1,101 @@
+.ladrilhoPrincipal
+	#Cardapio
+		h2 Cardapio
+		
+		- if !@domingo.blank?
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 Domingo
+					br
+					span
+					br
+					- @domingo.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br
+		
+		- if !@segunda.blank?
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 2a feira
+					br
+					span
+					br
+					- @segunda.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br
+					
+		- if !@terca.blank?
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 3a feira
+					br
+					span
+					br
+					- @terca.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br
+		
+		- if !@quarta.blank?			
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 4a feira
+					br
+					span
+					br
+					- @quarta.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br
+					
+		- if !@quinta.blank?
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 5a feira
+					br
+					span
+					br
+					- @quinta.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br
+					
+		- if !@sexta.blank?
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 6a feira
+					br
+					span
+					br
+					- @sexta.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br
+					
+		- if !@sabado.blank?
+			.categoriaCardapio
+				.colunaDireita
+				.colunaEsquerda
+					h3 Sábado
+					br
+					span
+					br
+					- @sabado.each do |e| 
+						h4 = e.title
+						br
+						p = e.description.html_safe
+						br

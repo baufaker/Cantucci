@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 ActiveAdmin.register Vinho do
   
   menu :parent => "Carta de Vinhos", :priority => 2
@@ -21,9 +23,10 @@ ActiveAdmin.register Vinho do
   
   form do |f|
     f.inputs "Vinhos" do
-            f.input :vinho_categoria
-            f.input :title
-            f.input :description
+            f.input :vinho_categoria, :label => "Categoria do Vinho"
+            f.input :title, :label => "Título"
+            f.input :priority, :label => "Prioridade"
+            f.input :description, :label => "Descrição"
           end
     f.buttons
   end

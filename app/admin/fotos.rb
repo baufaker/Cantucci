@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 ActiveAdmin.register Foto do
-  menu :label => "Página de Fotos"
+  menu :parent => "Páginas"
   
   form do |f|
     f.inputs 'Foto' do      
